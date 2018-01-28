@@ -55,9 +55,75 @@
                 </p>
               </dd>
             </dl>
-          </div>
-        </div>
-
+          
+             <dl>
+              <dt>
+                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">HTTP Resource Addressing</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                <p>
+                     These are indentified by using URL's (Uniform Resource Locator). The schemes that are used in HTTP are "http" and "https". The default port for http (Hypertext Transfer Protocol) is 40 while in https (Hyper Text Transfer Protocol Secure), the default port is 443.
+                </p>
+                <p>
+                     The domain name is resolved to an IP address of the server where the resource resides or will be created.
+                </p>
+              </dd>
+            </dl>
+        
+             <dl>
+              <dt>
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">Query in HTTP</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                <p>
+                    The HTTP Query started of with a "?" sign. It is provided as a key = value pairs, with ampersand (&) separators between key/value pairs. 
+                </p>
+                <p>
+                    It may also be a URL encoded, which means it resides on the client side. If it is URL decoded, it is in the server side.
+                </p>          
+	      </dd>
+            </dl>
+          
+	    <dl>
+              <dt>
+                <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Message</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+                <p>
+                    First, it goes to the request line. The order of HTTP request message are separated values, method, and request message. The message headers typically includes the general request/entity headers. 
+                </p>
+                <p>
+                    In HTTP 1.1, it requires at least the host header. It also has an empty line and a message body or payload, which is optional in usage.
+                </p>          
+	      </dd>
+            </dl>
+        
+	    <dl>
+              <dt>
+                <a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">HTTP Response Message</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
+                <p>
+                    The HTTP response message is similar to the request message. It requires a status line that have a protocol version, status code, and reason phrase.
+                </p>         
+	      </dd>
+            </dl>
+		
+	     <dl>
+              <dt>
+                <a href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Methods</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
+                <p>
+                	The standard methods that are used in HTTP 1.1 are GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, OPTION
+                </p>         
+			    <p>
+                	GET - it is used to transfer a selected presentation of the target resource. The retrieved resource is returned in the message body of the response as entity.
+                </p>  
+	      </dd>
+            </dl>
+         </div>
+       </div>
 <script>
 (function(){
 	var d = document,
