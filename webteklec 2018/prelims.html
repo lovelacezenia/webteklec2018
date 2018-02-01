@@ -56,9 +56,50 @@
               </dd>
             </dl>
               
-                          <dl>
+            <dl>
               <dt>
-                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">HTTP Versions</a>
+                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">HTTP Fundamentals</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+				        <li> HTTP typically runs on top of TCP/IP, using TCP port 80 by default (TCP port 443 for HTTPS). </li>
+				        <li> HTTP resources are identified using URIs (specifically HTTP URLs). </li>
+				        <li> HTTP is based on client-server architecture. </li>
+				            <ul>
+								<li> Clients (AKA User Agents (UA)). </li>
+								    <ul>
+								        <li> Web browsers </li>
+								        <li> Web crawlers </li>
+								        <li> Email clients </li>
+								        <li> Other end user tools and applications </li>
+				                    </ul>
+								            <li> Servers </li>
+												<ul>
+												    <li> Origin servers </li>
+												    <li> Proxy servers </li>
+												    <li> Gateways </li>
+												    <li> Tunnels </li>
+												</ul>
+				            </ul>
+								<li> HTTP uses a request-response standard protocol. </li>
+								    <ul>
+								        <li> Client sends an HTTP request to the server. </li>
+								        <li> Server processes the request and replies with an HTTP response message. </li>
+								    </ul>
+										  <li> HTTP is a stateless communications protocol. </li> 
+								                <ul>
+												    <li> Servers DO NOT keep information about clients between requests. </li>
+												    <li> Web applications affect session tracking using mechanisms such as cookies (a very small text file) on URL-encoded session
+													information to keep track of related client requests. </li>
+				                                </ul>
+								<li> HTTP provides support for other functionalities such as cache-control (cache: Local storage/copy of a resource that is fetched from a server), content media type (MIME) specification, language and character set specification, content/transfer coding, client-server protocol negotiations, persistent connections, request pipelining etc. </li> 
+				    </ul>
+              </dd>
+            </dl>
+              
+            <dl>
+              <dt>
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">HTTP Versions</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                 <ul>	
@@ -91,7 +132,7 @@
           
              <dl>
               <dt>
-                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">HTTP Resource Addressing</a>
+                <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">HTTP Resource Addressing</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
                 <p>
@@ -105,7 +146,7 @@
         
              <dl>
               <dt>
-                <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">Query in HTTP</a>
+                <a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">Query in HTTP</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
                 <p>
@@ -119,7 +160,7 @@
           
 	    <dl>
               <dt>
-                <a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Message</a>
+                <a href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Message</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
                 <p>
@@ -133,7 +174,7 @@
         
 	    <dl>
               <dt>
-                <a href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="accordion-title accordionTitle js-accordionTrigger">HTTP Response Message</a>
+                <a href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="accordion-title accordionTitle js-accordionTrigger">HTTP Response Message</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
                 <p>
@@ -144,7 +185,7 @@
 		
 	     <dl>
               <dt>
-                <a href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Methods</a>
+                <a href="#accordion8" aria-expanded="false" aria-controls="accordion8" class="accordion-title accordionTitle js-accordionTrigger">HTTP Request Methods</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
                 <p>
