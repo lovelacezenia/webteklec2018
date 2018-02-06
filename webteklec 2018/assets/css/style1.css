@@ -27,9 +27,10 @@ body {
    font-size:1em;
    line-height:1.5em; 
 }
-.accordion p {
-  padding:1em 2em 1em 2em;
+.accordion p, li {
+  padding:.9em 3em .1em 3em;
 }
+
 .accordion {
     position:relative;
     background-color:#eee;
