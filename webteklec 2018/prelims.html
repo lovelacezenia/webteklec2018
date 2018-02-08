@@ -208,8 +208,36 @@
                 <p>
                 	The standard methods that are used in HTTP 1.1 are GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, OPTION
                 </p>         
-			         <p>
-                	GET - it is used to transfer a selected presentation of the target resource. The retrieved resource is returned in the message body of the response as entity.
+                	<ol>
+					<li>GET</li>
+					
+					GET - it is used to transfer a selected presentation of the target resource. The retrieved resource is returned in the message body of the response as entity.
+Most commonly used HTTP method
+Used to request from the server the retrieval of the source identified by the request URI; the retrieved resource is returned in the
+message body as an entity.
+Can be combined with conditional and/or range request headers to effect conditional and/or partial resource retrieval
+Must be supported by all general-purpose servers.
+<li>HEAD</li>
+Identical to GET, except the message body is not included in the response
+POST
+Request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the
+Request-URI in the Request-Line.
+<li>PUT</li>
+Request the server to store the enclosed entity in the message under the specified request URI
+
+<li>OPTIONS</li>
+Request for information about the communication options available on the request/response chain identified by the Request-URI.
+This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a
+server, without implying a resource action or initiating resource retrieval.
+
+<li>TRACE</li>
+Request the server to “echo” back to the client the received request
+Typically used for testing/diagnostics of the request chain
+
+<li>DELETE</li>
+Request the server to delete the resource identified by the request URI
+<li>CONNECT</li>
+Reserved for use of tunneling proxy servers
                 </p>  
 	           </dd>
         <!-- end of httpreqmethod -->
