@@ -2,9 +2,9 @@
   box-sizing:border-box;
 }
 body { 
-
-  font-family:'Lato';
+      font-family: 'Trebuchet MS', serif;
 }
+
 .heading-primary {
   font-size:5em;
   padding:2em;
@@ -27,8 +27,35 @@ body {
    font-size:1em;
    line-height:1.5em; 
 }
+ul.tabs{
+      margin: 0px;
+      padding: 35px;
+      list-style: none;
+    }
+    ul.tabs li{
+      background: grey;
+      color: #222;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    ul.tabs li.current{
+      background: yellowgreen;
+      color: #222;
+    }
+
+    .tab-content{
+      display: none;
+      background: #ededed;
+      padding-left: 3em;
+    }
+
+    .tab-content.current{
+      display: inherit;
+    }
 .accordion p, li {
-  padding:.9em 3em .1em 3em;
+  padding:.9em 3px .1em 3em;
 }
 
 .accordion {
@@ -38,7 +65,7 @@ body {
 .container {
   max-width:1300px;
   margin:0 auto;
-  padding:2em 0 1em 0;
+  padding:2px 0 1px 0;
 }
 .accordionTitle,
 .accordion__Heading {
