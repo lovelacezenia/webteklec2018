@@ -1,13 +1,44 @@
 * {
   box-sizing:border-box;
 }
+
 body { 
       font-family: 'Trebuchet MS', serif;
 }
 
+#searchinput {
+  background-image: url('/images/search.png');
+  background-position: 10em 10em;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 5px 6px 10px;
+  border: 1em solid #ddd;
+}
+
+#search {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#search li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #A9A9A9;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#search li a:hover:not(.header) {
+  background-color: #FF6347;
+}
 .heading-primary {
   font-size:5em;
-  padding:2em;
+  padding:3em;
   text-align:center;
 }
 .accordion dl,
@@ -33,7 +64,7 @@ ul.tabs{
       list-style: none;
     }
     ul.tabs li{
-      background: grey;
+      background: #A9A9A9;
       color: #222;
       display: inline-block;
       padding: 10px 15px;
@@ -41,7 +72,7 @@ ul.tabs{
     }
 
     ul.tabs li.current{
-      background: yellowgreen;
+      background: #9ACD32;
       color: #222;
     }
 
