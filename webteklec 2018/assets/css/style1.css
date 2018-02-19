@@ -54,6 +54,9 @@ ul.tabs{
     .tab-content.current{
       display: inherit;
     }
+  ul ol li{
+    list-style-type: circle;
+  }
 
     span.dropt {
       border-bottom: thin dotted;

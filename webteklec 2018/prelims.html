@@ -63,10 +63,12 @@
                             Collection of hardware and software. (Hardware- Host actual devices connected to the net.)
                         </p>
                         <li>Aside from WWW here are other applications that uses the internet:</li>
-                        <ul>
-                            <li> - Email </li>
-                            <li> - FTP </li>
-                        </ul>
+                        <ol>
+                            <ul>
+                                <li> - Email </li>
+                                <li> - FTP </li>
+                            </ul>
+                        </ol>
                         <p>
                             URL(Uniform Resource Locator)- use to identify resource. (http is the scheme).
                         </p>
@@ -199,32 +201,53 @@
                 <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">HTTP Versions</a>
               </dt>
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                        <div class="container">
+                                <ul class="tabs">
+                                    <li class="tab-link current" data-tab="tab-1">HTTP 0.9</li>
+                                    <li class="tab-link" data-tab="tab-2">HTTP 1.0</li>
+                                    <li class="tab-link" data-tab="tab-3">HTTP 1.1</li>
+                                    <li class="tab-link" data-tab="tab-4">HTTP 2</li>
 
-                        <li> HTTP 0.9 </li>
-                        <ul>
-                            <li> 1991 </li>
-                            <li> - simple </li>
-                            <li> - requests consist of a single line and start with the only possible method GET </li>
-                        </ul>
-                        <li> HTTP 1.0 </li>
-                        <ul>
-                            <li> - building extensibility </li>
-                            <li> - RFC 1945, May 1996 </li>
-                            <li> - it consist of 3 methods; GET, HEAD, POST </li>
-                        </ul>
-                        <li> HTTP 1.1 </li>
-                        <ul>
-                            <li> - allow persistent connection. </li>
-                            <li> - standardized protocol </li>
-                            <li> - RFC 2068, January 1997</li>
-                            <li> - RFC 2616, June 1999 </li>
-                            <li> - RFC 7230 - 7235, June 2014</li>
-                        </ul>
-                        <li> HTTP 2 </li>
-                        <ul>
-                            <li> - RFC 7540, May 2015</li>
-                            <li> - pipelining/multiplex is already produced. And (Server Push). </li>
-                        </ul>
+                                </ul>
+
+                                <div id="tab-1" class="tab-content current">
+                                    <ol>
+                                        <ul>
+                                            <li> - 1991 </li>
+                                            <li> - simple </li>
+                                            <li> - requests consist of a single line and start with the only possible method GET </li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                                <div id="tab-2" class="tab-content">
+                                    <ol>
+                                         <ul>
+                                            <li> - building extensibility </li>
+                                            <li> - RFC 1945, May 1996 </li>
+                                            <li> - it consist of 3 methods; GET, HEAD, POST </li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                                <div id="tab-3" class="tab-content">
+                                    <ol>
+                                        <ul>
+                                            <li> - allow persistent connection. </li>
+                                            <li> - standardized protocol </li>
+                                            <li> - RFC 2068, January 1997</li>
+                                            <li> - RFC 2616, June 1999 </li>
+                                            <li> - RFC 7230 - 7235, June 2014</li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                                <div id="tab-4" class="tab-content">
+                                    <ol>
+                                        <ul>
+                                            <li> - RFC 7540, May 2015</li>
+                                            <li> - pipelining/multiplex is already produced. And (Server Push). </li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                            </div>
 
                     </dd>
                 </dl>
@@ -286,37 +309,38 @@
                         
                             <div class="container">
                                 <ul class="tabs">
-                                    <li class="tab-link current" data-tab="tab-1">GET</li>
-                                    <li class="tab-link" data-tab="tab-2">HEAD</li>
-                                    <li class="tab-link" data-tab="tab-3">PUT</li>
-                                    <li class="tab-link" data-tab="tab-4">OPTIONS</li>
-                              <li class="tab-link" data-tab="tab-5">TRACE</li>
-                            <li class="tab-link" data-tab="tab-6">DELETE</li>
-                            <li class="tab-link" data-tab="tab-7">CONNECT</li>
+                                    <li class="tab-link current" data-tab="tab-5">GET</li>
+                                    <li class="tab-link" data-tab="tab-6">HEAD</li>
+                                    <li class="tab-link" data-tab="tab-7">PUT</li>
+                                    <li class="tab-link" data-tab="tab-8">OPTIONS</li>
+                                    <li class="tab-link" data-tab="tab-9">TRACE</li>
+                                    <li class="tab-link" data-tab="tab-10">DELETE</li>
+                                    <li class="tab-link" data-tab="tab-11">CONNECT</li>
                                 </ul>
 
-                                <div id="tab-1" class="tab-content current">
+                                <div id="tab-5" class="tab-content current">
                                     it is used to transfer a selected presentation of the target resource. The retrieved resource is returned in the message body of the response as entity. Most commonly used HTTP method Used to request from the server the retrieval of the source identified by the request URI; the retrieved resource is returned in the message body as an entity. Can be combined with conditional and/or range request headers to effect conditional and/or partial resource retrieval Must be supported by all general-purpose servers.
                                 </div>
-                                <div id="tab-2" class="tab-content">
+                                <div id="tab-6" class="tab-content">
                                      Identical to GET, except the message body is not included in the response POST Request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line.
                                 </div>
-                                <div id="tab-3" class="tab-content">
+                                <div id="tab-7" class="tab-content">
                                     Request the server to store the enclosed entity in the message under the specified request URI
                                 </div>
-                                <div id="tab-4" class="tab-content">
+                                <div id="tab-8" class="tab-content">
                                     Request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating resource retrieval.
                                 </div>
-                            <div id="tab-5" class="tab-content">
+                            <div id="tab-9" class="tab-content">
                               Request the server to “echo” back to the client the received request Typically used for testing/diagnostics of the request chain
                             </div>
-                            <div id="tab-6" class="tab-content">
+                            <div id="tab-10" class="tab-content">
                               Request the server to delete the resource identified by the request URI
                             </div>
-                            <div id="tab-7" class="tab-content">
+                            <div id="tab-11" class="tab-content">
                               Reserved for use of tunneling proxy servers
                             </div>
-                            </div><!-- container -->
+                            </div>
+                            <!-- container -->
                             </p>
                     </dd>
                 </dl>
@@ -330,54 +354,57 @@
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                         <div class="container">
                                 <ul class="tabs">
-                                    <li class="tab-link current" data-tab="tab-1">General Header Fields</li>
-                                    <li class="tab-link" data-tab="tab-2">Request Header Fields</li>
-                                    <li class="tab-link" data-tab="tab-3">Response Header Fields</li>
-                                    <li class="tab-link" data-tab="tab-4">Entity Header Fields</li>
+                                    <li class="tab-link current" data-tab="tab-12">General Header Fields</li>
+                                    <li class="tab-link" data-tab="tab-13">Request Header Fields</li>
+                                    <li class="tab-link" data-tab="tab-14">Response Header Fields</li>
+                                    <li class="tab-link" data-tab="tab-15">Entity Header Fields</li>
                               
                                 </ul>
 
-                                <div id="tab-1" class="tab-content current">
-                                   
-                                 <li> can be used by clients and server </li>
-                                    <ul>
-                                   <li> - Cache Control</li>
-                                   <li> - Connection</li>
-                                   <li> - Date</li>
-                                   <li> - Pragma</li>
-                                   <li> - Trailer</li>
-                                   <li> - Transfer Encoding</li>
-                                   <li> - Upgrade</li>
-                                   <li> - Via</li>
-                                   <li> - Warning</li>
-                                          
-                                 </ul>
+                                <div id="tab-12" class="tab-content current">
+                              
+                                 <p> Can be used by clients and server </p>
+                                            <ol>
+                                               <ul>
+                                               <li> - Cache Control</li>
+                                               <li> - Connection</li>
+                                               <li> - Date</li>
+                                               <li> - Pragma</li>
+                                               <li> - Trailer</li>
+                                               <li> - Transfer Encoding</li>
+                                               <li> - Upgrade</li>
+                                               <li> - Via</li>
+                                               <li> - Warning</li>
+                                             </ul>
+                                         </ol>
                                 </div>
-                                <div id="tab-2" class="tab-content">
-                                    <li> used only by clients </li>
-                                    <ul>
-                                   <li> - Accept</li>
-                                   <li> - Accept Charset</li>
-                                   <li> - Accept Encoding</li>
-                                   <li> - Accept Language </li>
-                                   <li> - Authorization</li>
-                                          
-                                 </ul>
+                                <div id="tab-13" class="tab-content">
+                                    <p> Used only by clients </p>
+                                        <ol>
+                                            <ul>
+                                               <li> - Accept</li>
+                                               <li> - Accept Charset</li>
+                                               <li> - Accept Encoding</li>
+                                               <li> - Accept Language </li>
+                                               <li> - Authorization</li>
+                                            </ul>
+                                        </ol>
                                 </div>
-                                <div id="tab-3" class="tab-content">
+                                <div id="tab-14" class="tab-content">
                                     
                                  
                                 </div>
-                                <div id="tab-4" class="tab-content">
+                                <div id="tab-15" class="tab-content">
                                   
                                 </div>
                             
                             </div><!-- container -->
                              </p>
-                        <!-- end of http message headers -->
-                   
                     </dd>
                 </dl>
+                        <!-- end of http message headers -->
+                   
+                   
 
                 <!-- start of http Status Code -->
                 <dl>
@@ -415,41 +442,59 @@
                 <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">HTML Version History</a>
               </dt>
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
-
-                        <li>Version History</li>
-                        <ul>
-                            <li> - Tim Berners-Lee created the HTML Tags in the late 1991.</li>
-                            <li> - The HTML Draft was created by Tim Berners-Lee & Dan Connolly and it was published by the IETF in 1993.
-                        </ul>
-                        <li>HTML 2.0(RFC 1866, Nov.1995)</li>
-                        <ul>
-                            <li> - The original documentation can be found by the RFC 1866, and it was created in November 1995.</li>
-                            <li> - This version of HTML has the use of a Client Side Image Maps where it has an image with clickable areas. </li>
-                            <li> - It has a form based upload that allows the producer to request information from the user.</li>
-                            <li> - It has an HTML tables for any tabular information that is followed by one or more rows. </li>
-                            <li> - It has also a Internationalization to give any additional recommendations for proper support. </li>
-                        </ul>
-                        <li>HTML 3.2(W3C Recommendation, Jan. 1997)</li>
-                        <ul>
-                            <li> - HTML 3.2 was the first version of HTML to be implemented and released as a W3C reccomendation and because in HTML 3.2, it was not propesed or published entirely. </li>
-                            <li> - It was released on January 14th, 1997. </li>
-                            <li> - It was the first set of HTML that is standardized and recognized by the W3C.</li>
-                            <li> - The representatives that is involved in the standards of HTML 3.2 is from different companies like Netscape, Microsoft, Sun Microsystems, etc</li>
-                        </ul>
-                        <li>HTML 4.0(W3C Recommendation, Dec. 1997)</li>
-                        <ul>
-                            <li> - HTML 4.0 was published as a W3C reccomendation in December 18, 1997. </li>
-                            <li> - It is initially named "Cougar". </li>
-                            <li> - This version of HTML introduces CSS that has the ability to control multiple web pages at once. </li>
-                            <li> - The improvement of tables have already been introduced in this version to provide additional information for Braille or speech users.
-                        </ul>
-                        <li> HTML 4.01(W3C Recommendation, Dec. 1999)</li>
-                        <ul>
-                            <li> - HTML 4.01 was published as a W3C reccomendation in December 24, 1999. </li>
-                            <li> - There was some errors in the specifications of HTML 4.01. </li>
-                            <li> - This version of HTML is the accepted standard and the majority of web users are using this HTML Version. </li>
-                            <li> - It has a Strict, Transitional, and Frameset, document type definition. </li>
-                        </ul>
+                        <div class="container">
+                                <ul class="tabs">
+                                    <li class="tab-link current" data-tab="tab-16">Version History</li>
+                                    <li class="tab-link" data-tab="tab-17">HTML 2.0(RFC 1866, Nov.1995)</li>
+                                    <li class="tab-link" data-tab="tab-18">HTML 3.2(W3C Recommendation, Jan. 1997)</li>
+                                    <li class="tab-link" data-tab="tab-19">HTML 4.0(W3C Recommendation, Dec. 1997)</li>
+                                    <li class="tab-link" data-tab="tab-20">HTML 4.01(W3C Recommendation, Dec. 1999)</li>
+                                </ul>
+                            <p> HTML Version
+                                <div id="tab-16" class="tab-content current">
+                                    <ul>
+                                        <li> - Tim Berners-Lee created the HTML Tags in the late 1991.</li>
+                                        <li> - The HTML Draft was created by Tim Berners-Lee & Dan Connolly and it was published by the IETF in 1993.
+                                    </ul>
+                                </div>
+                                <div id="tab-17" class="tab-content">
+                                    <ul>
+                                        <li> - The original documentation can be found by the RFC 1866, and it was created in November 1995.</li>
+                                        <li> - This version of HTML has the use of a Client Side Image Maps where it has an image with clickable areas. </li>
+                                        <li> - It has a form based upload that allows the producer to request information from the user.</li>
+                                        <li> - It has an HTML tables for any tabular information that is followed by one or more rows. </li>
+                                        <li> - It has also a Internationalization to give any additional recommendations for proper support. </li>
+                                    </ul>
+                                </div>
+                                <div id="tab-18" class="tab-content">
+                                    Request the server to store the enclosed entity in the message under the specified request URI
+                                </div>
+                                <div id="tab-8" class="tab-content">
+                                    <ul>
+                                        <li> - HTML 3.2 was the first version of HTML to be implemented and released as a W3C reccomendation and because in HTML 3.2, it was not propesed or published entirely. </li>
+                                        <li> - It was released on January 14th, 1997. </li>
+                                        <li> - It was the first set of HTML that is standardized and recognized by the W3C.</li>
+                                        <li> - The representatives that is involved in the standards of HTML 3.2 is from different companies like Netscape, Microsoft, Sun Microsystems, etc</li>
+                                    </ul>
+                                </div>
+                            <div id="tab-19" class="tab-content">
+                                    <ul>
+                                        <li> - HTML 4.0 was published as a W3C reccomendation in December 18, 1997. </li>
+                                        <li> - It is initially named "Cougar". </li>
+                                        <li> - This version of HTML introduces CSS that has the ability to control multiple web pages at once. </li>
+                                        <li> - The improvement of tables have already been introduced in this version to provide additional information for Braille or speech users.
+                                    </ul>
+                            </div>
+                            <div id="tab-20" class="tab-content">
+                                    <ul>
+                                        <li> - HTML 4.01 was published as a W3C reccomendation in December 24, 1999. </li>
+                                        <li> - There was some errors in the specifications of HTML 4.01. </li>
+                                        <li> - This version of HTML is the accepted standard and the majority of web users are using this HTML Version. </li>
+                                        <li> - It has a Strict, Transitional, and Frameset, document type definition. </li>
+                                    </ul>
+                            </div>
+                            </div>
+                        </p>
                     </dd>
                 </dl>
                 <!-- end of HTMLVersionHistory-->
@@ -460,27 +505,52 @@
                 <a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">XHTML Version History</a>
               </dt>
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
-                        <li> XHTML </li>
-                        <ul>
-                            <li> - XHTML is the reformulation of HTML. </li>
-                            <li> - This was intended to introduce the new HTML elements and attributes as well. It's initial release is January 26, 2000. </li>
-                            <li> - This version of HTML is the accepted standard and the majority of web users are using this kind of HTML Version. </li>
-                            <li> - It has a Strict, Transitional, and Frameset, document type definition. </li>
-                        </ul>
-                        <li> XHTML 1.0 </li>
-                        <ul>
-                            <li> - XHTML 1.0 was officially adopted by the W3C Recommendation in January 2000.</li>
-                            <li> - XTHML 1.0 Strict includes elements that are not deprecated in HTML 4.01. </li>
-                            <li> - XHTML 1.0 Transitional is equal to the HTML 4.01 Transitional, and includes the elements such as font, strike, and center. </li>
-                            <li> - XHTML 1.0 Frameset allows the definition of some frameset documents such as the iframe element. </li>
-                        </ul>
-                        <li> XHTML 1.1 </li>
-                        <ul>
-                            <li> - XHTML 1.1 becomes a W3C Recommendation in May 2001. </li>
-                            <li> - XTHML 1.1 Strict includes elements that are not deprecated in HTML 4.01. </li>
-                            <li> - XHTML 1.1 drops all derecated elements from XHTML 1.0. </li>
-                            <li> - XHTML 1.1 is designed towards the styles or sheets of document structures. </li>
-                        </ul>
+                        <p> XHTML Version's
+                            <div class="container">
+                                <ul class="tabs">
+                                    <li class="tab-link current" data-tab="tab-21">XHTML</li>
+                                    <li class="tab-link" data-tab="tab-21">XHTML 1.0</li>
+                                    <li class="tab-link" data-tab="tab-22">XHTML 1.1</li>
+                                </ul>
+
+                                <div id="tab-21" class="tab-content current">
+                                        <ul>
+                                            <li> - XHTML is the reformulation of HTML. </li>
+                                            <li> - This was intended to introduce the new HTML elements and attributes as well. It's initial release is January 26, 2000. </li>
+                                            <li> - This version of HTML is the accepted standard and the majority of web users are using this kind of HTML Version. </li>
+                                            <li> - It has a Strict, Transitional, and Frameset, document type definition. </li>
+                                        </ul>
+                                </div>
+                                <div id="tab-22" class="tab-content">
+                                        <ul>
+                                            <li> - XHTML 1.0 was officially adopted by the W3C Recommendation in January 2000.</li>
+                                            <li> - XTHML 1.0 Strict includes elements that are not deprecated in HTML 4.01. </li>
+                                            <li> - XHTML 1.0 Transitional is equal to the HTML 4.01 Transitional, and includes the elements such as font, strike, and center. </li>
+                                            <li> - XHTML 1.0 Frameset allows the definition of some frameset documents such as the iframe element. </li>
+                                        </ul>
+                                </div>
+                                <div id="tab-23" class="tab-content">
+                                        <ul>
+                                            <li> - XHTML 1.1 becomes a W3C Recommendation in May 2001. </li>
+                                            <li> - XTHML 1.1 Strict includes elements that are not deprecated in HTML 4.01. </li>
+                                            <li> - XHTML 1.1 drops all derecated elements from XHTML 1.0. </li>
+                                            <li> - XHTML 1.1 is designed towards the styles or sheets of document structures. </li>
+                                        </ul>
+                                </div>
+                                <div id="tab-24" class="tab-content">
+                                    Request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating resource retrieval.
+                                </div>
+                            <div id="tab-25" class="tab-content">
+                              Request the server to “echo” back to the client the received request Typically used for testing/diagnostics of the request chain
+                            </div>
+                            <div id="tab-26" class="tab-content">
+                              Request the server to delete the resource identified by the request URI
+                            </div>
+                            <div id="tab-27" class="tab-content">
+                              Reserved for use of tunneling proxy servers
+                            </div>
+                            </div>
+                        </p>
                     </dd>
                 </dl>
                 <!-- end of XHTMLHistory-->
