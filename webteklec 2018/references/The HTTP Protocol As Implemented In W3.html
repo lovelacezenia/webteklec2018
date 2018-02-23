@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0052)https://www.w3.org/Protocols/HTTP/AsImplemented.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>The HTTP Protocol As Implemented In W3</title>
+<script type="text/javascript">try {
+var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
+var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
+var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
+var AG_abortInlineScript=function(d,e,f){var c;if("currentScript"in document)var b=function(){return document.currentScript};else b=function(){var a=document.getElementsByTagName("script");return a[a.length-1]},window.addEventListener("DOMContentLoaded",function(){b=function(){return null}});AG_defineProperty(e,{beforeGet:function(){var a=b();if(a&&a!==c&&(c=a,""===a.src&&d.test(a.textContent)))throw setTimeout(function(){console.warn("AdGuard aborted an execution of an inline script")}),null;}},f)};
+var AG_defineProperty=function(){var k,l=Object.defineProperty;if("function"==typeof WeakMap)k=WeakMap;else{var m=0,n=function(){this.a=(m+=Math.random()).toString()};n.prototype.set=function(a,b){var c=a[this.a];c&&c[0]===a?c[1]=b:l(a,this.a,{value:[a,b],writable:!0});return this};n.prototype.get=function(a){var b;return(b=a[this.a])&&b[0]===a?b[1]:void 0};n.prototype.has=function(a){var b=a[this.a];return b?b[0]===a:!1};k=n}function r(a){this.b=a;this.h=Object.create(null)}function t(a,b,c,d){this.a=a;this.i=b;this.c=c;this.g=d}function u(){this.a=new k}function v(a,b,c){var d=b.i,e=b.c,f=new r(e.b),g;for(g in e.h)v(a,e.h[g],f);d=new t(c,d,f,b.g);c.h[d.i]=d;"undefined"!==typeof c.b&&(e=w(c.b,d.i),d.f=e,f=x(d.g)||y(a,d),!e||e.configurable?(l(c.b,d.i,f),e&&z(e)&&(A(c.b,f,e.value),B(a,e.value,b.c))):B(a,c.b[d.i],b.c))}function y(a,b){return{get:function(){var c=b.g;c&&c.beforeGet&&c.beforeGet.call(this,b.a.b);a:if(c=b.f)c=z(c)?c.value:c.get?c.get.call(this):void 0;else{c=b.a.b;if(b.i in c&&(c=C(c),null!==c)){var d=D.call(c,b.i);c=d?d.call(this):c[b.i];break a}c=void 0}(this===b.a.b||E.call(b.a.b,this))&&B(a,c,b.c);return c},set:function(c){if(this===b.a.b||E.call(b.a.b,this)){b.g&&b.g.beforeSet&&(c=b.g.beforeSet.call(this,c,this));var d=b.f;d&&z(d)&&d.value===c?c=!0:(d=F(b,c,this),G(c)&&(c=H(a,c),I(a,c,b.c)),c=d)}else c=F(b,c,this);return c},enumerable:b.f?b.f.enumerable:!0}}function I(a,b,c){for(var d in c.h){var e=c.h[d];if(b.h[d]){var f=a,g=b.h[d];!e.g||g.g||"undefined"===typeof g.a.b||g.f||(g.f=x(e.g));g.c&&e.c&&g.c!==e.c&&I(f,g.c,e.c)}else v(a,e,b)}}function B(a,b,c){G(b)&&(b=H(a,b),I(a,b,c))}function A(a,b,c){return z(b)?b.writable?(b.value=c,!0):!1:b.set?b.set.call(a,c):!1}function F(a,b,c){var d=a.f;if(!d){d=C(a.a.b);if(null!==d&&(d=J.call(d,a.i)))return d.call(c,b);if(!K(a.a.b))return!1;a.f={value:b,configurable:!0,writable:!0,enumerable:!0};return!0}return A(c,d,b)}function z(a){return"undefined"!==typeof a.writable}function x(a){if(a){for(var b={},c=L,d=!1;c--;){var e=M[c];N.call(a,e)&&(d=!0,b[e]=a[e])}return d?b:void 0}}function H(a,b){var c=a.a.get(b);c||(c=new r(b),a.a.set(b,c));return c}var M="value get set writable configurable enumerable".split(" "),L=6,w=Object.getOwnPropertyDescriptor,K=Object.isExtensible,C=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty,E=Object.prototype.isPrototypeOf,D=Object.prototype.__lookupGetter__||function(a){return(a=O(this,a))&&a.get?a.get:void 0},J=Object.prototype.__lookupSetter__||function(a){return(a=O(this,a))&&a.set?a.set:void 0};function O(a,b){if(b in a){for(;!N.call(a,b);)a=C(a);return w(a,b)}}function G(a){var b=typeof a;return"function"===b||"object"===b&&null!==a?!0:!1}var P;return function(a,b,c){P||(P=new u);var d=P;c=c||window;var e=new r;a+=".";var f=e||new r;for(var g=d.f||(d.f=/^([^\\\.]|\\.)*?\./),h,p,q;a;){h=g.exec(a);if(null===h)throw 1;h=h[0].length;p=a.slice(0,h-1);a=a.slice(h);(h=f.h[p])?q=h.c:(q=new r,h=new t(f,p,q),f.h[p]=h);f=q}if(!h)throw 1;a=h;a.g=b;B(d,c,e)};}();
+(function(){function d(a,c){if(a instanceof Array&&"string"===typeof a[0]&&(0<=a[0].indexOf("\x43\x72\x79\x70\x74" + "\x6F\x6E\x69\x67\x68\x74")||0<=a[0].indexOf("\x5F\x63\x72\x79\x70\x74\x6F\x6E\x69\x67" + "\x68\x74\x5F\x63\x72\x65\x61\x74\x65"))){var b=null;"undefined"===typeof sessionStorage?b=!1:"1"===sessionStorage.getItem("__u7c4mop23r23239")?b=!0:"0"===sessionStorage.getItem("__u7c4mop23r23239")&&(b=!1);if(null==b){b=window.confirm(g("confirm.miner"));try{if(b)sessionStorage.setItem("__u7c4mop23r23239","1");else if(sessionStorage.setItem("__u7c4mop23r23239","0"),window.confirm(g("confirm.report"))){var d=window.location.hostname,f=encodeURIComponent(document.referrer);(new Image).src="https://crypto.adguard.com/report.png?host="+d+"&ref="+f}}catch(k){}}if(!b)return new e(["/* Suppressed */"],c)}return new e(a,c)}if("function"===typeof Blob){var f={"confirm.miner":'AdGuard has detected an attempt by this website to use your browser as a crypto-currency miner. It can create significant CPU load. Press "Cancel" to prevent it.',"confirm.report":'We are collecting all the information about the websites engaged in hidden crypto-mining. Press "OK" to send an automatic report about this website.'},h={"confirm.miner":'AdGuard \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0438\u043b, \u0447\u0442\u043e \u044d\u0442\u043e\u0442 \u0441\u0430\u0439\u0442 \u043f\u044b\u0442\u0430\u0435\u0442\u0441\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0432\u0430\u0448 \u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u0434\u043b\u044f \u0434\u043e\u0431\u044b\u0447\u0438 \u043a\u0440\u0438\u043f\u0442\u043e\u0432\u0430\u043b\u044e\u0442\u044b. \u042d\u0442\u043e \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0437\u0430\u043c\u0435\u0442\u043d\u0443\u044e \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0443 \u043d\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440. \u041d\u0430\u0436\u043c\u0438\u0442\u0435 "\u041e\u0442\u043c\u0435\u043d\u0430", \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u044d\u0442\u0443 \u043f\u043e\u043f\u044b\u0442\u043a\u0443.',"confirm.report":'\u041c\u044b \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u043c \u0434\u0430\u043d\u043d\u044b\u0435 \u043e\u0431\u043e \u0432\u0441\u0435\u0445 \u0441\u0430\u0439\u0442\u0430\u0445, \u0437\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u0445 \u0432 \u043f\u043e\u043f\u044b\u0442\u043a\u0430\u0445 \u0441\u043a\u0440\u044b\u0442\u043e\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432 \u0432\u0430\u0448\u0435\u0433\u043e \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430. \u041d\u0430\u0436\u043c\u0438\u0442\u0435 "\u041e\u041a" \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043d\u0430\u043c \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435 \u043e\u0431 \u044d\u0442\u043e\u043c \u0441\u0430\u0439\u0442\u0435.'},g=function(a){var c=navigator.language;return c&&0===c.indexOf("ru")?h[a]:f[a]},e=Blob;d.prototype=e.prototype;window.Blob=d}})();
+} catch (ex) { console.error('Error executing AG js: ' + ex); }</script></head>
+<body background="./The HTTP Protocol As Implemented In W3_files/OldPaper">
+<p>
+<a href="https://www.w3.org/"><img border="0" alt="W3C" src="./The HTTP Protocol As Implemented In W3_files/w3c_home" width="72" height="48"></a>
+<a href="https://www.w3.org/Protocols/"><img border="0" alt="HTTP" src="./The HTTP Protocol As Implemented In W3_files/HTTP48x" width="48" height="48"></a>
+<a href="https://www.w3.org/DesignIssues/OldDocs.html">1991</a>
+</p><h1>
+  The Original HTTP as defined in 1991
+</h1>
+<p>
+This document defines the Hypertext Transfer protocol (HTTP) as originally
+implemented by the <a name="15" href="https://www.w3.org/">World Wide Web</a> initaitive
+software in the prototype released. This is a subset of the
+<a name="1" href="https://www.w3.org/Protocols/HTTP/HTTP2.html">full</a> HTTP protocol, and is known as HTTP
+0.9.
+</p><p>
+No client profile information is transferred with the query. Future HTTP
+protocols will be back-compatible with this protocol.
+</p><p>
+This restricted protocol is very simple and may always be used when you do
+not need the capabilities of the full protocol which is backwards compatible.
+</p><p>
+The definition of this protocol is in the public domain (see
+<a name="16" href="https://www.w3.org/Policy.html">policy</a> ).
+</p><p>
+The protocol uses the normal internet-style telnet protocol style on a TCP-IP
+link. The following describes how a client acquires a (hypertext) document
+from an HTTP server, given an HTTP document
+<a name="6" href="https://www.w3.org/Addressing/HTTPAddressing.html">address</a> .
+</p><h2>
+  Connection
+</h2>
+<p>
+The client makes a TCP-IP connection to the host using the
+<a name="7" href="https://www.w3.org/Addressing/BNF.html#5">domain name</a> or
+<a name="8" href="https://www.w3.org/Addressing/BNF.html#45">IP number</a> , and the
+<a name="9" href="https://www.w3.org/Addressing/BNF.html#7">port number</a> given in the
+address.
+</p><p>
+If the port number is not specified, 80 is always assumed for HTTP.
+</p><p>
+The server accepts the connection.
+</p><p>
+Note: HTTP currently runs over TCP, but could run over any connection-oriented
+service. The interpretation of the protocol below in the case of a sequenced
+packet service (such as DECnet(TM) or ISO TP4) is that that the request should
+be one TPDU, but the response may be many.
+</p><h2>
+  Request
+</h2>
+<p>
+The client sends a document request consisting of a line of ASCII characters
+terminated by a CR LF (carriage return, line feed) pair. A well-behaved server
+will not require the carriage return character.
+</p><p>
+This request consists of the word "GET", a space, the
+<a name="10" href="https://www.w3.org/Addressing/BNF.html#1">document address</a> , omitting
+the "http:, host and port parts when they are the coordinates just used to
+make the connection. (If a gateway is being used, then a full document address
+may be given specifying a different naming scheme).
+</p><p>
+The document address will consist of a single word (ie no spaces). If any
+further words are found on the request line, they MUST either be ignored,
+or else treated according to the <a name="z17" href="https://www.w3.org/Protocols/HTTP/HTTP2.html">full HTTP
+spec</a> .
+</p><p>
+The search functionality of the protocol lies in the ability of the addressing
+syntax to describe a <a name="14" href="https://www.w3.org/Addressing/Search.html">search
+on a named index</a> .
+</p><p>
+A search should only be requested by a client when the index document itself
+has been descibed as an index using the
+<a name="12" href="https://www.w3.org/MarkUp/Tags.html#18">ISINDEX tag</a> .
+</p><h2>
+  Response
+</h2>
+<p>
+The response to a simple GET request is a message in hypertext mark-up language
+(<a name="11" href="https://www.w3.org/MarkUp/"> HTML</a> ). This is a byte stream of
+ASCII characters.
+</p><p>
+Lines shall be delimited by an optional carriage return followed by a mandatory
+line feed chararcter. The client should not assume that the carriage return
+will be present. Lines may be of any length. Well-behaved servers should
+retrict line length to 80 characters excluding the CR LF pair.
+</p><p>
+The format of the message is HTML - that is, a trimmed SGML document. Note
+that this format allows for menus and hit lists to be returned as hypertext.
+It also allows for plain ASCII text to be returned following the PLAINTEXT
+tag .
+</p><p>
+The message is terminated by the closing of the connection by the server.
+</p><p>
+Well-behaved clients will read the entire document as fast as possible. The
+client shall not wait for user action (output paging for example) before
+reading the whole of the document. The server may impose a timeout of the
+order of 15 seconds on inactivity.
+</p><p>
+Error responses are supplied in human readable text in HTML syntax. There
+is no way to distinguish an error response from a satisfactory response except
+for the content of the text.
+</p><h2>
+  Disconnection
+</h2>
+<p>
+The TCP-IP connection is broken by the server when the whole document has
+been transferred.
+</p><p>
+The client may abort the transfer by breaking the connection before this,
+in which case the server shall not record any error condition.
+</p><p>
+Requests are <a name="2" href="https://www.w3.org/Protocols/HTTP.html#13">idempotent</a> . The server
+need not store any information about the request after disconnection.
+</p><address>
+  <a name="0" href="https://www.w3.org/TBL_Disclaimer.html">Tim BL</a>
+  <p>
+</p></address>
+
+</body></html>
