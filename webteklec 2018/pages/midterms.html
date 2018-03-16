@@ -1,58 +1,150 @@
 <!DOCTYPE HTML>
 <html>
    <head>
-      <title>Reviewer for Midterms</title>
+      <title>Reviewer for Prelims</title>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="../assets/css/style.css">
+      <link rel="stylesheet" href="../assets/css/style1.css">
       <link rel="icon" href="../images/logo.png" type="image/ico" />
+      <script src="../assets/js/jquery-1.10.2.js"></script>
+      <script src="../assets/js/jquery.js"></script>
    </head>
-   <body class="midterms">
+   <body class="prelims">
       <div id="page-wrapper">
-         <!-- Header -->
-         <div id="header">
-            <!-- Inner -->
-            <div class="inner">
-               <header>
-                  <h1><a href="midterms.html" id="logo">Midterms</a></h1>
-                  <hr />
-                  <p>Web Systems and Technologies Reviewer 2018</p>
-               </header>
-               <footer>
-                  <img src="../images/logo.png" height="200" width="180">
-               </footer>
-            </div>
-            <!-- Nav -->
-            <nav id="nav">
-               <ul>
-                  <li><a href="../index.html">Home</a></li>
-                  <li><a href="prelims.html">Prelims</a></li>
-                  <li><a href="midterms.html">Midterms</a></li>
-                  <li><a href="finals.html">Finals</a></li>
-                  <li><a href="acronyms.html">Acronyms</a></li>
-               </ul>
-            </nav>
+      <!-- Header -->
+      <div id="header">
+         <!-- Inner -->
+         <div class="inner">
+            <header>
+               <h1><a href="prelims.html" id="logo">Prelims</a></h1>
+               <hr />
+               <p>Web Systems and Technologies Reviewer 2018</p>
+            </header>
+            <footer>
+               <img src="../images/logo.png" height="200" width="180">
+            </footer>
          </div>
-         <div class="container">
-            <article id="main" class="special">
-               <section>
-                  <header>
-                     <h3>Soon</h3>
-                  </header>
-                  <p>
-                     ....
-                  </p>
-               </section>
-            </article>
-         </div>
-         <!-- Footer -->
-         <div id="footer">
-            <div class="copyright">
+         <!-- Nav -->
+         <nav id="nav">
+            <ul>
+               <li><a href="../index.html">Home</a></li>
+               <li><a href="prelims.html">Prelims</a></li>
+               <li><a href="midterms.html">Midterms</a></li>
+               <li><a href="finals.html">Finals</a></li>
+               <li><a href="acronyms.html">Acronyms</a></li>
+            </ul>
+         </nav>
+      </div>
+      <!-- -->
+      <div class="container">
+      <div class="accordion">
+                  <dl>
+            <dt>
+               <a href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="accordion-title accordionTitle js-accordionTrigger">CSS Selector</a>
+            </dt>
+            <dd class="accordion-content accordionItem is-collapsed" id="accordion14" aria-hidden="true">
                <ul>
-                  <li>&copy; All Rights Reserved, Webteklec 2018</li>
+                  <li> Selectors </li>
+                  <li> - Structure used us a condition in a css rule to determine which elements in the document tree are matched.</li>
+                  <li> - body ail# x>p-y[title] + span: +-before</li>
+                  <li> - condition in a CSS rule</li>
+                  <li> - match elements called the subject of the selector</li>
                </ul>
-            </div>
+         <!--child tab format-->
+               <ul>
+                  <li> Selectors Group</li>
+                  <li> - h1, h2, h3</li>
+                  <li> - :link; :visited</li>
+                  <li> - ul, hl, p</li>
+               </ul>
+               <ul>
+                  <li> Combinators</li>
+                  <li> - > child combinators</li>
+                  <li> - ~ general sibling</li>
+                  <li> - + adjacent sibling</li>
+               </ul>
+            <!--child of combinators-->
+               <ul>
+                  <li> pseudo-elements</li>
+                  <li> - ::first-line, :first-line</li>
+                  <li> - ::first-letter, :first-letter(eg h1::first-letter{font size: 2em;}</li>
+                  <li> - ::before, :before – introduce content before (eg h1::before{content:”topic”;} </li>
+                  <li> - ::after, :after – introduce content after element </li>
+            </dd>
+         </dl>
+
+         <!-- end of html document components -->
+         <script>
+            (function(){
+               var d = document,
+               accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+               setAria,
+               setAccordionAria,
+               switchAccordion,
+              touchSupported = ('ontouchstart' in window),
+              pointerSupported = ('pointerdown' in window);
+              
+              skipClickDelay = function(e){
+                e.preventDefault();
+                e.target.click();
+              }
+            
+                  setAriaAttr = function(el, ariaType, newProperty){
+                  el.setAttribute(ariaType, newProperty);
+               };
+               setAccordionAria = function(el1, el2, expanded){
+                  switch(expanded) {
+                  case "true":
+                     setAriaAttr(el1, 'aria-expanded', 'true');
+                     setAriaAttr(el2, 'aria-hidden', 'false');
+                     break;
+                  case "false":
+                     setAriaAttr(el1, 'aria-expanded', 'false');
+                     setAriaAttr(el2, 'aria-hidden', 'true');
+                     break;
+                  default:
+                        break;
+                  }
+               };
+            //function
+            switchAccordion = function(e) {
+              console.log("triggered");
+               e.preventDefault();
+               var thisAnswer = e.target.parentNode.nextElementSibling;
+               var thisQuestion = e.target;
+               if(thisAnswer.classList.contains('is-collapsed')) {
+                  setAccordionAria(thisQuestion, thisAnswer, 'true');
+               } else {
+                  setAccordionAria(thisQuestion, thisAnswer, 'false');
+               }
+               thisQuestion.classList.toggle('is-collapsed');
+               thisQuestion.classList.toggle('is-expanded');
+                  thisAnswer.classList.toggle('is-collapsed');
+                  thisAnswer.classList.toggle('is-expanded');
+               
+               thisAnswer.classList.toggle('animateIn');
+               };
+               for (var i=0,len=accordionToggles.length; i<len; i++) {
+                  if(touchSupported) {
+                  accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+                }
+                if(pointerSupported){
+                  accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+                }
+                accordionToggles[i].addEventListener('click', switchAccordion, false);
+              }
+            })();
+            
+         </script>
+      </div>
+      <!-- Footer -->
+      <div id="footer">
+         <div class="copyright">
+            <ul>
+               <li>&copy; All rights Reserved, Webteklec 2018</li>
+            </ul>
          </div>
       </div>
    </body>
-</html>
+</html>   
