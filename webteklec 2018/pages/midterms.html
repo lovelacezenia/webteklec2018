@@ -74,13 +74,13 @@
             </dd>
          </dl>
 
-         <!-- end of CSS selectors -->
-          <!-- start of Simple selectors -->
+         <!-- start of Simple selectors -->
+         
          <div class="container">
       <div class="accordion">
                   <dl>
             <dt>
-               <a href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="accordion-title accordionTitle js-accordionTrigger">Simple Selector</a>
+               <a href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="accordion-title accordionTitle js-accordionTrigger">Simple Selectors</a>
             </dt>
             <dd class="accordion-content accordionItem is-collapsed" id="accordion14" aria-hidden="true">
                
@@ -97,7 +97,28 @@
             </dd>
          </dl>
 
-         <!-- end of Simple Selectors -->
+         <!-- end of Simple selectors-->
+          <!-- start of CSS rule precedence -->
+         <div class="container">
+      <div class="accordion">
+                  <dl>
+            <dt>
+               <a href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="accordion-title accordionTitle js-accordionTrigger">CSS Rule Precedence</a>
+            </dt>
+            <dd class="accordion-content accordionItem is-collapsed" id="accordion14" aria-hidden="true">
+               
+               <ul>
+             
+                  <li> - An HTML element may be the subject of the selectors of multiple style rules.</li>
+                  <li> - When such rules target different properties, their effect cascade.</li>
+                  <li> - When the style involve the same property, they conflict and must be resolved such that only one style is applied.</li>
+                  
+               </ul>
+           
+            </dd>
+         </dl>
+
+         <!-- end of CSS rule Precedence -->
          <script>
             (function(){
                var d = document,
