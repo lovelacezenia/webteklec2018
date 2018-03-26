@@ -212,6 +212,39 @@
                   <li> - When such rules target different properties, their effect cascade.</li>
                   <li> - When the style involve the same property, they conflict and must be resolved such that only one style is applied.</li>
                </ul>
+		    <div class="container">
+                  <ul class="tabs">
+                     <li class="tab-link current" data-tab="tab-1">by origin and importance</li>
+                     <li class="tab-link" data-tab="tab-2">by specificity</li>
+                     <li class="tab-link" data-tab="tab-3">by order</li>
+                     
+                  </ul>
+                  <div id="tab-1" class="tab-content current">
+                     <ol>
+                        <ul>
+                           <li> - The origin of the rule declared refers to where it comes from. There are three potential origins for a rule(useragent,author,user).</li>
+                           <li> - The importance of the rule is whether it has been specified as important or normal. By default, all rules are considered normal until we specify them to be important.
+                                  A rule can be marked as important by using the !important rule.  </li>
+                        </ul>
+                     </ol>
+                  </div>
+                  <div id="tab-2" class="tab-content">
+                     <ol>
+                        <ul>
+                           <li> - determined by the number of #id,selected classes,type,pseudo-element,attribute. </li>
+                           <li> - <a class="external mw-magiclink-rfc" rel="nofollow" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#Selector_Types>Selector Types</a></li>
+           
+                   	  </ul>
+                     </ol>
+                  </div>
+                  <div id="tab-3" class="tab-content">
+                     <ol>
+                        <ul>
+                           <li> - The last/later part will be followed. </li>
+                           
+                        </ul>
+                     </ol>
+</div>
             </dd>
          </dl>
          <!-- end of CSS Rule Precedence -->
