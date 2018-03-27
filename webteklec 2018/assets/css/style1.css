@@ -203,3 +203,6 @@ ul.tabs{
 .animateOut {
      animation: accordionOut 0.45s alternate ease-in-out both 1;
 }
+mark {
+  background-color: orange;
+}

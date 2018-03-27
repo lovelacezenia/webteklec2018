@@ -135,6 +135,8 @@
                <a href="#accordion18" aria-expanded="false" aria-controls="accordion18" class="accordion-title accordionTitle js-accordionTrigger">CSS Selector</a>
             </dt>
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion18" aria-hidden="true">
+                        <p>A CSS selectors are patterns that is used to select the element(s) or content you want to style.
+                        </p>
                         <div class="container">
                             <ul class="tabs">
                                 <li class="tab-link current" data-tab="tab-33">Selectors</li>
@@ -189,27 +191,93 @@
                 <!-- start of Simple selectors -->
                 <dl>
                     <dt>
-            <a href="#accordion19" aria-expanded="false" aria-controls="accordion19" class="accordion-title accordionTitle js-accordionTrigger">Simple Selectors</a>
+            <a href="#accordion20" aria-expanded="false" aria-controls="accordion20" class="accordion-title accordionTitle js-accordionTrigger">Simple Selectors</a>
          </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion19" aria-hidden="true">
-                        <ul>
-                            <li> Simple Selectors :</li>
-                            <li> - Universal Selectors</li>
-                            <li> - Type Selectors</li>
-                            <li> - ID Selectors</li>
-                            <li> - Class Selectors</li>
-                            <li> - Attribute Selectors</li>
-                            <li> - Pseudo-classes</li>
-                        </ul>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion20" aria-hidden="true">
+                        <p>6 types of Simple Selectors.</p>
+                        <div class="container">
+                            <ul class="tabs">
+                                <li class="tab-link current" data-tab="tab-38">Universal Selectors</li>
+                                <li class="tab-link" data-tab="tab-39">Type Selectors</li>
+                                <li class="tab-link" data-tab="tab-40">ID Selectors</li>
+                                <li class="tab-link" data-tab="tab-41">Class Selectors</li>
+                                <li class="tab-link" data-tab="tab-42">Attribute Selectors</li>
+                                <li class="tab-link" data-tab="tab-43">Pseudo-classes</li>
+                            </ul>
+
+                            <div id="tab-38" class="tab-content current">
+                                <ul>
+                                    <li> - The universal selector works like a wild card character, selecting all elements on a page. Every HTML page is built on content placed within HTML tags. Each set of tags represents an element on the page.</li>
+                                    <li> Example of CSS which uses the universal selector: <br>
+                                        <img src="../images/universalselector.PNG">
+                                    </li> 
+                                    <li>The three lines of code inside the curly braces <mark>(color, font-size, and line-height)</mark> will apply to all elements on the HTML page.
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div id="tab-39" class="tab-content">
+                                <ul>
+                                    <li> - Also referred to simply as a “type selector,” this selector must match one or more HTML elements of the same name. Thus, a selector of nav would match all HTML <mark>nav</mark> elements, and a selector of <mark>< ul ></mark> would match all HTML unordered lists, or <mark>< ul ></mark> elements.
+                                    </li>
+                                    <li>Example uses an element type selector to match all <mark>< ul ></mark> elements: <br>
+                                        <img src="../images/element.PNG">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab-40" class="tab-content">
+                                <ul>
+                                    <li> - An ID selector is declared using a hash, or pound symbol <mark>(#)</mark> preceding a string of characters. The string of characters is defined by the developer. This selector matches any HTML element that has an ID attribute with the same value as that of the selector, but minus the hash symbol.</li>
+                                    <li>Example of id selector<br>
+                                        <img src="../images/idselector.PNG">
+                                    </li>
+                                    <li>This CSS uses an ID selector to match an HTML element such as: <br>
+                                        <img src="../images/idselediv.PNG">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab-41" class="tab-content">
+                                <ul>
+                                    <li> - The class selector is the most useful of all CSS selectors. It’s declared with a dot preceding a string of one or more characters.</li>
+                                    <li> Example of Class Selector <br>
+                                        <img src="../images/classselector.PNG">
+                                    </li>
+                                    <li> These styles will apply to the following HTML element: <br>
+                                        <img src="../images/carousel.PNG">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab-42" class="tab-content">
+                                <ul>
+                                    <li> - The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets:</li>
+                                    <li> Example <br>
+                                        <img src="../images/attrib.PNG">
+                                    </li>
+                                    <li> - There should not be a space before the opening square bracket unless you intend to use it along with a descendant combinator. The above CSS would match the following element:<br> 
+                                        <img src="../images/attribhtml.PNG">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab-43" class="tab-content">
+                                <ul>
+                                    <li> - A pseudo-class uses a colon character to identify a pseudo-state that an element might be in—for example, the state of being hovered, or the state of being activated. Let’s look at a common example: <br>
+                                        <img src="../images/pseudo-class.PNG">
+                                    </li>
+                                    <li> - the pseudo-class portion of the selector is the <mark>:hover</mark> part. Here we’ve attached this pseudo-class to all anchor elements ( elements). </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- container -->
+                        
                     </dd>
                 </dl>
                 <!-- end of Simple selectors-->
                 <!-- start of CSS Rule Precedence -->
                 <dl>
                     <dt>
-               <a href="#accordion20" aria-expanded="false" aria-controls="accordion20" class="accordion-title accordionTitle js-accordionTrigger">CSS Rule Precedence</a>
+               <a href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="accordion-title accordionTitle js-accordionTrigger">CSS Rule Precedence</a>
             </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion20" aria-hidden="true">
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion21" aria-hidden="true">
                         <ul>
                             <li> - An HTML element may be the subject of the selectors of multiple style rules.</li>
                             <li> - When such rules target different properties, their effect cascade.</li>
@@ -217,12 +285,12 @@
                         </ul>
                         <div class="container">
                             <ul class="tabs">
-                                <li class="tab-link" data-tab="tab-38">By Origin and Importance</li>
-                                <li class="tab-link" data-tab="tab-39">By Specificity</li>
-                                <li class="tab-link" data-tab="tab-40">By Order</li>
+                                <li class="tab-link" data-tab="tab-44">By Origin and Importance</li>
+                                <li class="tab-link" data-tab="tab-45">By Specificity</li>
+                                <li class="tab-link" data-tab="tab-46">By Order</li>
 
                             </ul>
-                            <div id="tab-38" class="tab-content">
+                            <div id="tab-44" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - The origin of the rule declared refers to where it comes from. There are three potential origins for a rule(useragent,author,user).</li>
@@ -231,7 +299,7 @@
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-39" class="tab-content">
+                            <div id="tab-45" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - Determined by the number of #id, selected classes, type, pseudo-element, attribute. </li>
@@ -239,7 +307,7 @@
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-40" class="tab-content">
+                            <div id="tab-46" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - The last/later part will be followed. </li>
@@ -253,9 +321,9 @@
                 <!-- start of CSS Declaration-->
                 <dl>
                     <dt>
-               <a href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="accordion-title accordionTitle js-accordionTrigger">CSS Declaration</a>
+               <a href="#accordion22" aria-expanded="false" aria-controls="accordion22" class="accordion-title accordionTitle js-accordionTrigger">CSS Declaration</a>
             </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion21" aria-hidden="true">
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion22" aria-hidden="true">
                         <li> Properties</li>
                         <p> - Short hand Properties lets you see or specify the set of values of multiple properties at the same time. </p>
                         <li> Examples: background, margin, padding, border </li>
@@ -270,35 +338,35 @@
                 <!-- start of CSS Value Processing -->
                 <dl>
                     <dt>
-               <a href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="accordion-title accordionTitle js-accordionTrigger">CSS Value Processing</a>
+               <a href="#accordion23" aria-expanded="false" aria-controls="accordion23" class="accordion-title accordionTitle js-accordionTrigger">CSS Value Processing</a>
             </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion21" aria-hidden="true">
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion23" aria-hidden="true">
                         <li> Once a user agent has parsed a document, it must assign to every element of the tree. </li>
                         <div class="container">
                             <ul class="tabs">
-                                <li class="tab-link" data-tab="tab-41">Declared Values</li>
-                                <li class="tab-link" data-tab="tab-42">Cascaded Values</li>
-                                <li class="tab-link" data-tab="tab-43">Specified Values</li>
-                                <li class="tab-link" data-tab="tab-44">Computed Values</li>
-                                <li class="tab-link" data-tab="tab-45">Used Values</li>
-                                <li class="tab-link" data-tab="tab-46">Actual Values</li>
+                                <li class="tab-link" data-tab="tab-47">Declared Values</li>
+                                <li class="tab-link" data-tab="tab-48">Cascaded Values</li>
+                                <li class="tab-link" data-tab="tab-49">Specified Values</li>
+                                <li class="tab-link" data-tab="tab-50">Computed Values</li>
+                                <li class="tab-link" data-tab="tab-51">Used Values</li>
+                                <li class="tab-link" data-tab="tab-52">Actual Values</li>
 
                             </ul>
-                            <div id="tab-41" class="tab-content">
+                            <div id="tab-47" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - Each declaration contributes for a declared values that is associated with the element.</li>
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-42" class="tab-content">
+                            <div id="tab-48" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li>- It represents the result of the cascade.</li>
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-43" class="tab-content">
+                            <div id="tab-49" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - It is the value of a property that the authors intended for that specific element. </li>
@@ -306,21 +374,21 @@
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-44" class="tab-content">
+                            <div id="tab-50" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li>- It is the value that is transferred from parent to child during inheritance and it is the act of resolving the specified values.</li>
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-45" class="tab-content">
+                            <div id="tab-51" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li>- It completes the remaining calculations of the computed valies to make it an absolute theoretical value.</li>
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-46" class="tab-content">
+                            <div id="tab-52" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li>- The actual values is a principle that is ready to be used in a given environment.</li>
@@ -333,18 +401,18 @@
                 <!-- start of CSS Value Types -->
                 <dl>
                     <dt>
-               <a href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="accordion-title accordionTitle js-accordionTrigger">CSS Value Types</a>
+               <a href="#accordion24" aria-expanded="false" aria-controls="accordion24" class="accordion-title accordionTitle js-accordionTrigger">CSS Value Types</a>
             </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion21" aria-hidden="true">
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion24" aria-hidden="true">
                         <li> These are the two types of keywords in CSS </li>
 
                         <div class="container">
                             <ul class="tabs">
-                                <li class="tab-link" data-tab="tab-47">CSS-wide Keywords</li>
-                                <li class="tab-link" data-tab="tab-48">Property-Specific Keywords</li>
+                                <li class="tab-link" data-tab="tab-53">CSS-wide Keywords</li>
+                                <li class="tab-link" data-tab="tab-54">Property-Specific Keywords</li>
                             </ul>
 
-                            <div id="tab-47" class="tab-content">
+                            <div id="tab-53" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - It represents the value computation to all CSS properties that follows but they are not a valid custom-ident/s.</li>
@@ -353,7 +421,7 @@
                                 </ol>
                             </div>
 
-                            <div id="tab-48" class="tab-content">
+                            <div id="tab-54" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li>- The numeric data types are the Integers, Real Numbers, and with a percantage type.</li>
@@ -370,19 +438,19 @@
                 <!-- start of CSS Processors, Frameworks and polyfills-->
                 <dl>
                     <dt>
-               <a href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="accordion-title accordionTitle js-accordionTrigger">CSS Preprocessors, Frameworks and Polyfills</a>
+               <a href="#accordion25" aria-expanded="false" aria-controls="accordion25" class="accordion-title accordionTitle js-accordionTrigger">CSS Preprocessors, Frameworks and Polyfills</a>
             </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion21" aria-hidden="true">
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion25" aria-hidden="true">
                         <li> It generates CSS using a customize language syntax that includes features that are not available in pure CSS like variables, nestings, mixins, etc. It is more easier to maintain than any other features.</li>
 
                         <div class="container">
                             <ul class="tabs">
-                                <li class="tab-link current" data-tab="tab-50">Preprocessors</li>
-                                <li class="tab-link" data-tab="tab-51">Frameworks</li>
-                                <li class="tab-link" data-tab="tab-52">Polyfills</li>
+                                <li class="tab-link current" data-tab="tab-55">Preprocessors</li>
+                                <li class="tab-link" data-tab="tab-56">Frameworks</li>
+                                <li class="tab-link" data-tab="tab-57">Polyfills</li>
 
                             </ul>
-                            <div id="tab-41" class="tab-content current">
+                            <div id="tab-55" class="tab-content current">
                                 <ol>
                                     <ul>
                                         <li> - Generates CSS using custom language syntax that typically include features that don't exist in pure CSS. </li>
@@ -393,7 +461,7 @@
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-42" class="tab-content">
+                            <div id="tab-56" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - Provided predefined CSS design functionality that can be reused,extended, or customized.</li>
@@ -402,7 +470,7 @@
                                     </ul>
                                 </ol>
                             </div>
-                            <div id="tab-43" class="tab-content">
+                            <div id="tab-57" class="tab-content">
                                 <ol>
                                     <ul>
                                         <li> - Also known as "Shims". </li>
