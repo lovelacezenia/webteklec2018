@@ -210,15 +210,15 @@
                                     <li> - The universal selector works like a wild card character, selecting all elements on a page. Every HTML page is built on content placed within HTML tags. Each set of tags represents an element on the page.</li>
                                     <li> Example of CSS which uses the universal selector: <br>
                                         <img src="../images/universalselector.PNG">
-                                    </li> 
+                                    </li>
                                     <li>The three lines of code inside the curly braces <mark>(color, font-size, and line-height)</mark> will apply to all elements on the HTML page.
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                             <div id="tab-39" class="tab-content">
                                 <ul>
-                                    <li> - Also referred to simply as a “type selector,” this selector must match one or more HTML elements of the same name. Thus, a selector of nav would match all HTML <mark>nav</mark> elements, and a selector of <mark>< ul ></mark> would match all HTML unordered lists, or <mark>< ul ></mark> elements.
+                                    <li> - Also referred to simply as a “type selector,” this selector must match one or more HTML elements of the same name. Thus, a selector of nav would match all HTML <mark>nav</mark> elements, and a selector of <mark>< ul ></mark>                                        would match all HTML unordered lists, or <mark>< ul ></mark> elements.
                                     </li>
                                     <li>Example uses an element type selector to match all <mark>< ul ></mark> elements: <br>
                                         <img src="../images/element.PNG">
@@ -227,7 +227,8 @@
                             </div>
                             <div id="tab-40" class="tab-content">
                                 <ul>
-                                    <li> - An ID selector is declared using a hash, or pound symbol <mark>(#)</mark> preceding a string of characters. The string of characters is defined by the developer. This selector matches any HTML element that has an ID attribute with the same value as that of the selector, but minus the hash symbol.</li>
+                                    <li> - An ID selector is declared using a hash, or pound symbol <mark>(#)</mark> preceding a string of characters. The string of characters is defined by the developer. This selector matches any HTML element that has an
+                                        ID attribute with the same value as that of the selector, but minus the hash symbol.</li>
                                     <li>Example of id selector<br>
                                         <img src="../images/idselector.PNG">
                                     </li>
@@ -253,7 +254,7 @@
                                     <li> Example <br>
                                         <img src="../images/attrib.PNG">
                                     </li>
-                                    <li> - There should not be a space before the opening square bracket unless you intend to use it along with a descendant combinator. The above CSS would match the following element:<br> 
+                                    <li> - There should not be a space before the opening square bracket unless you intend to use it along with a descendant combinator. The above CSS would match the following element:<br>
                                         <img src="../images/attribhtml.PNG">
                                     </li>
                                 </ul>
@@ -263,12 +264,13 @@
                                     <li> - A pseudo-class uses a colon character to identify a pseudo-state that an element might be in—for example, the state of being hovered, or the state of being activated. Let’s look at a common example: <br>
                                         <img src="../images/pseudo-class.PNG">
                                     </li>
-                                    <li> - the pseudo-class portion of the selector is the <mark>:hover</mark> part. Here we’ve attached this pseudo-class to all anchor elements ( elements). This means that when the user hovers their mouse over an element, the color property for that element will change to red. </li>
+                                    <li> - the pseudo-class portion of the selector is the <mark>:hover</mark> part. Here we’ve attached this pseudo-class to all anchor elements ( elements). This means that when the user hovers their mouse over an element,
+                                        the color property for that element will change to red. </li>
                                 </ul>
                             </div>
                         </div>
                         <!-- container -->
-                        
+
                     </dd>
                 </dl>
                 <!-- end of Simple selectors-->
@@ -326,10 +328,13 @@
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion22" aria-hidden="true">
                         <li> Properties</li>
                         <p> - Short hand Properties lets you see or specify the set of values of multiple properties at the same time. </p>
+
                         <li> Examples: background, margin, padding, border </li>
                         <p> Vendor specific extensions (vendor prefixes) - it is an identifier that are used by browser vendors as a prefix for the names of experimental and non - standard properties. It begins with a dash (-) or a underscore (-).</p>
+
                         <li> Examples: -webkit-border-radius, moz-border-radius, -moz, -ms-, mso-, -webkit- </li>
                         <p> Custom Properties (CSS Variables) - the property names are prefixed with --, that represent a value that can be reused throughout the document and can be accessed by using the the var() function. </p>
+
                         <li>Example: color: var(--main-color); </li>
                         </div>
                     </dd>
@@ -384,7 +389,7 @@
                             <div id="tab-51" class="tab-content">
                                 <ol>
                                     <ul>
-                                        <li>- It completes the remaining calculations of the computed valies to make it an absolute theoretical value.</li>
+                                        <li>- It completes the remaining calculations of the computed values to make it an absolute theoretical value.</li>
                                     </ul>
                                 </ol>
                             </div>
@@ -416,7 +421,7 @@
                                 <ol>
                                     <ul>
                                         <li> - It represents the value computation to all CSS properties that follows but they are not a valid custom-ident/s.</li>
-                                        <li>- Examples of CSS Preprocessors: 'initial', 'inherit', 'unset'.</li>
+                                        <li> - Examples of CSS-wide keywords: <mark>initial'</mark>, <mark>'inherit'</mark>, <mark>'unset'</mark>.</li>
                                     </ul>
                                 </ol>
                             </div>
@@ -427,7 +432,7 @@
                                         <li>- The numeric data types are the Integers, Real Numbers, and with a percantage type.</li>
                                         <li> - An integer is one or more decimal digits from 0 to 9.</li>
                                         <li> - A number is either an integer (usually preceeded by a '-' or '+'), zero or a decimal digits (.)</li>
-                                        <li> - A percentage is followed by a percent sign (%), and it can be combined with a 'calc()' expression. The examples are: 'length-percentage', 'frequency-percentage', etc. </li>
+                                        <li> - A percentage is followed by a percent sign (%), and it can be combined with a 'calc()' expression. The examples are: <mark>'< length-percentage >'</mark>, <mark>'< frequency-percentage >'</mark>, etc. </li>
                                     </ul>
                                 </ol>
                             </div>
@@ -435,19 +440,92 @@
                     </dd>
                 </dl>
                 <!-- end of CSS Value Types-->
-                <!-- start of CSS Processors, Frameworks and polyfills-->
+                <!-- start of CSS Numeric Data Type: Dimensions-->
                 <dl>
                     <dt>
-               <a href="#accordion25" aria-expanded="false" aria-controls="accordion25" class="accordion-title accordionTitle js-accordionTrigger">CSS Preprocessors, Frameworks and Polyfills</a>
+               <a href="#accordion25" aria-expanded="false" aria-controls="accordion25" class="accordion-title accordionTitle js-accordionTrigger">CSS Numeric Data Type: Dimensions</a>
             </dt>
                     <dd class="accordion-content accordionItem is-collapsed" id="accordion25" aria-hidden="true">
+                        <li> The general term of dimension refres to a particular number with a unit that is attached to it. It is an indentifier when it is written literally that is followed by a unit indentifier. In CSS, <mark>< dimension>s</mark> are used
+                            to specify distances, durations, frequencies, resolutions, etc.</li>
+
+                        <div class="container">
+                            <ul class="tabs">
+                                <li class="tab-link" data-tab="tab-55">Length Units</li>
+                                <li class="tab-link" data-tab="tab-56">Angle Units</li>
+                                <li class="tab-link" data-tab="tab-57">Duration (Time) Units</li>
+                                <li class="tab-link" data-tab="tab-58">Frequency Units</li>
+                                <li class="tab-link" data-tab="tab-59">Resolution Units</li>
+                            </ul>
+
+                            <div id="tab-55" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li>a. Font-relative Length Units - refer to the font metrics of the element.</li>
+                                        <li>Examples of Font-relative lengths: <mark>'em', 'ex', 'rem', 'ch'</mark>.</li>
+                                        <li>b. Viewport-percentage Lengths - it is a relative to the size of initial containing block. When the block is changed, the height and width are scaled accordingly. </li>
+                                        <li>Examples of Viewport-percentage lengths: <mark>'vw', 'vh', 'vmin', 'vmax'</mark>. </li>
+                                        <li>c. Absolute Length Units - they are fixed in relation and it is anchored into some measurements like inches, centimeters, etc. </li>
+                                        <li>-- 2 types of Absolute Units: -- </li>
+                                        <li> Physical Units: <mark>'in', 'cm', 'mm', 'pt', 'pc', 'q' </mark></li>
+                                        <li> Visual Angle Units: <mark>'px'</mark> </li>
+                                    </ul>
+                                </ol>
+                            </div>
+
+                            <div id="tab-56" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li> - It is used in gradients and transform functions.</li>
+                                        <li>Examples of Angle Units: <mark>'deg', 'grad, 'rad', 'turn'</mark> </li>
+                                    </ul>
+                                </ol>
+                            </div>
+
+                            <div id="tab-57" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li>- It is used in animation, transition, and other related functions.</li>
+                                        <li>Examples of Duration (Time) lengths: <mark>'s', 'ms'</mark> </li>
+                                    </ul>
+                                </ol>
+                            </div>
+
+                            <div id="tab-58" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li>- It is used to represent a dimension such as the pitch of a speaking voice but it is not currently not being used or it is obselete.</li>
+                                        <li>Examples of Frequency Identifiers: <mark>'Hz (Hertz)', 'kHz (KiloHertz)'</mark>.</li>
+                                    </ul>
+                                </ol>
+                            </div>
+
+                            <div id="tab-58" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li>- It represents the size of a single dot in a graphical representation and how many does the following dots fits in CSS.</li>
+                                        <li>Examples of Resolution Unit Identifiers: <mark>'dpi', 'dpcm', 'dppx'</mark>.</li>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+
+                <!-- end of CSS Numeric Data Type: Dimensions-->
+                <!-- start of CSS Processors, Frameworks and Polyfills-->
+                <dl>
+                    <dt>
+               <a href="#accordion26" aria-expanded="false" aria-controls="accordion26" class="accordion-title accordionTitle js-accordionTrigger">CSS Preprocessors, Frameworks and Polyfills</a>
+            </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion26" aria-hidden="true">
                         <li> It generates CSS using a customize language syntax that includes features that are not available in pure CSS like variables, nestings, mixins, etc. It is more easier to maintain than any other features.</li>
 
                         <div class="container">
                             <ul class="tabs">
-                                <li class="tab-link current" data-tab="tab-55">Preprocessors</li>
-                                <li class="tab-link" data-tab="tab-56">Frameworks</li>
-                                <li class="tab-link" data-tab="tab-57">Polyfills</li>
+                                <li class="tab-link current" data-tab="tab-61">Preprocessors</li>
+                                <li class="tab-link" data-tab="tab-62">Frameworks</li>
+                                <li class="tab-link" data-tab="tab-62">Polyfills</li>
 
                             </ul>
                             <div id="tab-55" class="tab-content current">
@@ -483,7 +561,7 @@
 
                     </dd>
                 </dl>
-                <!-- end of CSS Processors, Frameworks and polyfills-->
+                <!-- end of CSS Processors, Frameworks and Polyfills-->
                 <script>
                     (function(){
                        var d = document,
@@ -556,5 +634,4 @@
                     </div>
                 </div>
 </body>
-
 </html>
