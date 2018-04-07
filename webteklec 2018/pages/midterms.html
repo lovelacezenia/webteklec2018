@@ -671,6 +671,75 @@
                     </dd>
                 </dl>
                 <!-- end of JavaScript Language Fundamentals-->
+         <!-- start of JavaScript Event Handling-->
+                <dl>
+                    <dt>
+               <a href="#accordion26" aria-expanded="false" aria-controls="accordion26" class="accordion-title accordionTitle js-accordionTrigger">JavaScript Event Handling</a>
+            </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion26" aria-hidden="true">
+                        <li> JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.</li>
+                       <div class="container">
+                            <ul class="tabs">
+                                 <li class="tab-link current" data-tab="tab-69">Event Propagation order</li>
+                                <li class="tab-link" data-tab="tab-70">Method</li>
+                                <li class="tab-link" data-tab="tab-71">Event Object Properties and Methods</li>
+
+                            </ul>
+                            <div id="tab-69" class="tab-content current">
+                                <ol>
+                                    <ul>
+                                        <li> - Capturing phase – the event goes down to the element. </li>
+                                        <li> - Target phase – the event reached the target element. </li>
+                                        <li> - Bubbling phase – the event bubbles up from the element.</li>
+
+                                    </ul>
+                                </ol>
+                            </div>
+                           <div id="tab-70" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li> Method #1 (inline HTML event attribute): </li>
+                                        <li> - non-standard universal support, not recommended.</li>
+                                        <li> Method #2 (pre-DOM L2): </li>
+                                        <li> - Non-standard universal support.</li>
+                                        <li> - can register only one handler.</li>
+                                        <li> - remove handler by assigning null values to attribute.</li>
+                                        <li> Method #3 (DOM L2 event registration): </li>
+                                        <li> - standard, well-supported.</li>
+                                        <li> - can rgister more than one event handler.</li>
+                                        <li> - can register handlers on the bubble or capture phase.</li>
+                                        <li> Method #4 (Microsoft-specific, non-standard, IEvG-v10): </li>
+                                        <li> - can register more than one event handler.</li>
+                                        <li> - can register handlers on the bubble phase.</li>
+                                        <li> - use detachEvent() to remove event handler.</li>
+                                        <li> - use fireEvent() to trigger event programmatically. </li>
+                                        <li> - cross-browser event registration.</li>
+
+
+                                    </ul>
+                                </ol>
+                            </div>
+                            
+                              <div id="tab-71" class="tab-content">
+                                <ol>
+                                    <ul>
+                                        <li> - bubbles -boolean values</li>
+                                        <li> - event phase</li>
+                                        <li> - target -trigger the event</li>
+                                        <li> - Current Target -handles the event</li>
+                                        <li> - prevent Default()</li>
+                                        <li> - stop Propagation()</li>
+                                        <li> - stopImmediate Propagation()</li>
+                                        <li> - other event</li>
+                                                                               
+                                    </ul>
+                                </ol>
+                            
+                         </div>  
+                        </div>
+                    </dd>
+                </dl>
+                <!-- end of JavaScript Event Handling-->
                 <script>
                     (function(){
                        var d = document,
