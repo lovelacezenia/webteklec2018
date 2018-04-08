@@ -345,6 +345,8 @@
                <a href="#accordion10" aria-expanded="false" aria-controls="accordion10" class="accordion-title accordionTitle js-accordionTrigger">HTTP Message Headers</a>
             </dt>
             <dd class="accordion-content accordionItem is-collapsed" id="accordion10" aria-hidden="true">
+               <p>HTTP messages are how data is exchanged between a server and a client. There are two types of messages: requests sent by the client to trigger an action on the server, and responses, the answer from the server.
+               </p>
                <div class="container">
                   <ul class="tabs">
                      <li class="tab-link current" data-tab="tab-12">General Header Fields</li>
@@ -354,7 +356,6 @@
                   </ul>
                   <div id="tab-12" class="tab-content current">
                      <p> Can be used by clients and server </p>
-                     <ol>
                         <ul>
                            <li> - Cache Control</li>
                            <li> - Connection</li>
@@ -366,7 +367,6 @@
                            <li> - Via</li>
                            <li> - Warning</li>
                         </ul>
-                     </ol>
                   </div>
                   <div id="tab-13" class="tab-content">
                      <p> Used only by clients </p>
@@ -422,6 +422,7 @@
                <a href="#accordion11" aria-expanded="false" aria-controls="accordion11" class="accordion-title accordionTitle js-accordionTrigger">HTTP Status Code</a>
             </dt>
             <dd class="accordion-content accordionItem is-collapsed" id="accordion11" aria-hidden="true">
+               <p>Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.</p>
                <div class="container">
                   <ul class="tabs">
                      <li class="tab-link current" data-tab="tab-16">Informational (1xx)</li>
@@ -431,6 +432,7 @@
                      <li class="tab-link" data-tab="tab-20">Server Error (5xx)</li>
                   </ul>
                   <div id="tab-16" class="tab-content current">
+                     <li>This class of status code indicates a provisional response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. There are no required headers for this class of status code. </li>
                      <ol>
                         <ul>
                            <li> - 100 Continue  </li>
@@ -440,6 +442,7 @@
                      </ol>
                   </div>
                   <div id="tab-17" class="tab-content">
+                     <li>This class of status code indicates that the client's request was successfully received, understood, and accepted.</li>
                      <ol>
                         <ul>
                            <li> - 200 OK </li>
@@ -456,6 +459,7 @@
                      </ol>
                   </div>
                   <div id="tab-18" class="tab-content">
+                     <li>his class of status code indicates that further action needs to be taken by the user agent in order to fulfill the request. The action required MAY be carried out by the user agent without interaction with the user if and only if the method used in the second request is GET or HEAD. A client SHOULD detect infinite redirection loops, since such loops generate network traffic for each redirection.</li>
                      <ol>
                         <ul>
                            <li> - 300 Multiple Choices </li>
@@ -471,6 +475,10 @@
                      </ol>
                   </div>
                   <div id="tab-19" class="tab-content">
+                     <li>The 4xx class of status code is intended for cases in which the client seems to have erred. Except when responding to a HEAD request, the server SHOULD include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents SHOULD display any included entity to the user. <br>
+
+                     If the client is sending data, a server implementation using TCP SHOULD be careful to ensure that the client acknowledges receipt of the packet(s) containing the response, before the server closes the input connection. If the client continues sending data to the server after the close, the server's TCP stack will send a reset packet to the client, which may erase the client's unacknowledged input buffers before they can be read and interpreted by the HTTP application.
+                  </li>
                      <ol>
                         <ul>
                            <li> - 400 Bad Request</li>
@@ -497,6 +505,7 @@
                      </ol>
                   </div>
                   <div id="tab-20" class="tab-content">
+                     <li>Response status codes beginning with the digit "5" indicate cases in which the server is aware that it has erred or is incapable of performing the request. Except when responding to a HEAD request, the server SHOULD include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. User agents SHOULD display any included entity to the user. These response codes are applicable to any request method.</li>
                      <ol>
                         <ul>
                            <li> - 500 Internal Server Error </li>
@@ -524,29 +533,42 @@
             </dt>
             <dd class="accordion-content accordionItem is-collapsed" id="accordion11" aria-hidden="true">
                <p> HTTP extensions can be extended by defining new request methods, message headers, and/or status codes, and then implementing servers and/or clients that make use of the new functionality.</p>
-               <li> Request </li>
-               <ul>
-                  <li> - copy </li>
-                  <li> - move </li>
-               </ul>
-               <li> Methods </li>
-               <ul>
-                  <li> - mkcol </li>
-                  <li> - lock </li>
-                  <li> - unlock </li>
-                  <li> - propfind </li>
-                  <li> - proppatch </li>
-               </ul>
-               <li> Message Headers</li>
-               <ul>
-                  <li> - dav </li>
-                  <li> - depth </li>
-                  <li> - destination </li>
-                  <li> - if </li>
-                  <li> - lock-token </li>
-                  <li> - overwrite </li>
-                  <li> - timeout </li>
-               </ul>
+               <div class="container">
+                  <ul class="tabs">
+                     <li class="tab-link current" data-tab="tab-112">Request</li>
+                     <li class="tab-link" data-tab="tab-113">Methods</li>
+                     <li class="tab-link" data-tab="tab-114">Message Headers</li>
+                  </ul>
+                  <div id="tab-112" class="tab-content current">
+                           <li> Request </li>
+                           <ul>
+                              <li> - copy </li>
+                              <li> - move </li>
+                           </ul>
+                  </div>
+                  <div id="tab-113" class="tab-content">
+                     <li> Methods </li>
+                        <ul>
+                           <li> - mkcol </li>
+                           <li> - lock </li>
+                           <li> - unlock </li>
+                           <li> - propfind </li>
+                           <li> - proppatch </li>
+                        </ul>
+                  </div>
+                  <div id="tab-114" class="tab-content">
+                     <li> Message Headers</li>
+                           <ul>
+                              <li> - dav </li>
+                              <li> - depth </li>
+                              <li> - destination </li>
+                              <li> - if </li>
+                              <li> - lock-token </li>
+                              <li> - overwrite </li>
+                              <li> - timeout </li>
+                           </ul>
+                  </div>
+               </div>
             </dd>
          </dl>
          <!-- end of http extensions -->
@@ -703,30 +725,41 @@
             </dt>
             <dd class="accordion-content accordionItem is-collapsed" id="accordion15" aria-hidden="true">
                <div class="container">
-                  <p> Elements (HTML 4.01, XHTML 1.0, HTML5) </p>
-                  <p> HTML 4.01 </p>
-                  <p> XHTML 1.0 DOCTYPEs </p>
-                  <p> HTML5 DOCTYPE </p>
-                  <p> Tags </p>
-                  <p> Content </p>
-                  <li> Head </li>
-                  <ul>
-                     <li> - title </li>
-                     <li> - base </li>
-                     <li> - link </li>
-                     <li> - meta </li>
-                     <li> - style </li>
-                     <li> - script </li>
+               <p>
+                  <li> Elements (HTML 4.01, XHTML 1.0, HTML5) </li>
+                  <li> HTML 4.01 </li>
+                  <li> XHTML 1.0 DOCTYPEs </li>
+                  <li> HTML5 DOCTYPE </li>
+                  <li> Tags </li>
+                  <li> Content </li>
+               </p>
+               <div class="container">
+                  <ul class="tabs">
+                     <li class="tab-link current" data-tab="tab-116">Head</li>
+                     <li class="tab-link" data-tab="tab-117">Body</li>
                   </ul>
-                  <li> Body </li>
-                  <ul>
-                     <li> - Grouping elements (div, span) </li>
-                     <li> - Headings (h1 – h6) </li>
-                     <li> - Paragraphs, line breaks, horizontal rules (p , br , hr) </li>
-                     <li> - Lists (ul, ol, li, dl, dt, dd, dir, menu) </li>
-                     <li> - Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col) </li>
-                     <li> - Structured text </li>
-                  </ul>
+                  <div id="tab-116" class="tab-content current">
+                     <ul>
+                        <li> - title </li>
+                        <li> - base </li>
+                        <li> - link </li>
+                        <li> - meta </li>
+                        <li> - style </li>
+                        <li> - script </li>
+                     </ul>
+                  </div>
+                  <div id="tab-117" class="tab-content">
+                     <ul>
+                        <li> - Grouping elements (div, span) </li>
+                        <li> - Headings (h1 – h6) </li>
+                        <li> - Paragraphs, line breaks, horizontal rules (p , br , hr) </li>
+                        <li> - Lists (ul, ol, li, dl, dt, dd, dir, menu) </li>
+                        <li> - Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col) </li>
+                        <li> - Structured text </li>
+                     </ul>
+                  </div>
+               </div>
+               <!---->
                   <p> Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym) </p>
                   <p> Quotations (blockquote, q) </p>
                   <p> Subscripts and superscripts (sub, sup) </p>
@@ -744,23 +777,31 @@
                   <ul>
                   <li> - Global Attribute <a class="external mw-magiclink-rfc" rel="nofollow" href="https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#global-attributes"> (W3C Documentation of Global attributes)</a> </li>
                   <ul>
-                     <li> These are the attributes that are common in HTML elements. These are the following attributes: </li>
-                     <li> - accesskey </li>
-                     <li> - class </li>
-                     <li> - contenteditable </li>
-                     <li> - contextmenu </li>
-                     <li> - dir </li>
-                     <li> - draggable </li>
-                     <li> - dropzone </li>
-                     <li> - hidden</li>
-                     <li> - id </li>
-                     <li> - lang </li>
-                     <li> - spellcheck </li>
-                     <li> - style </li>
-                     <li> - tabindex</li>
-                     <li> - title </li>
-                     <li> - translate </li>
-                  </ul>
+                     <li> These are the attributes that are common in HTML elements. These are the following attributes: 
+                     </li><br>
+                     <div class="row">
+                       <div class="column">
+                         <li>accesskey</li>
+                         <li>class</li>
+                         <li>contenteditable</li>
+                         <li>contextmenu</li>
+                         <li>dir </li>
+                        <li>draggable</li>
+                         <li> dropzone</li>
+                        <li> hidden</li>
+                       </div>
+                       <div class="column">
+                         <li>id</li>
+                        <li>lang</li>
+                        <li>spellcheck</li>
+                        <li>style</li>
+                        <li>tabindex</li>
+                        <li>title</li>
+                        <li>translate</li>
+                       </div>
+                     </div>
+                  </ul><br>
+                  <br>
                   <li> - Custom Non-Visible Data Attributes </li>
                   <ul>
                      <li>  This is an attribute where a particular name starts with the string "-data". </li>
