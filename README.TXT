@@ -6,4 +6,4 @@ Step 3: Click on the prelim for the prelim notes
 Step 4: Click on the midterm for the midterm notes
 Step 5: Click on the acronym for the acronyms used in the prelim and midterm notes
 
-**open the folder and simply click on the index.html to open the website. 
+**open the website folder and simply click on the index.html to open the website. 
