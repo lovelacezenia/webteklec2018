@@ -1,0 +1,779 @@
+commit 47ae001a9f82dfac485712211d3629bbba49e904
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Apr 8 23:53:58 2018 +0800
+
+    edited the html structure of midterms.html
+
+commit ad5a0d68c66d74420f2ad812c872c0249bd3e4a5
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Apr 8 23:48:26 2018 +0800
+
+    added additional notes in midterms.html
+
+commit d5193dc1dd93089691a62d054b20331ec356d1b0
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Apr 8 23:00:39 2018 +0800
+
+    edited readme.txt
+
+commit 8164c896b4b9cad9b32e8a5c211c4f218e569369
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Sun Apr 8 20:12:02 2018 +0800
+
+    update structure and added info about js
+
+commit f77f4ca50a4328731b858b0e56937206f0192234
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Sun Apr 8 19:08:25 2018 +0800
+
+    update and added some information
+
+commit a729f46fcf3bd04b93ffb54a67aa36b6a67d7364
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Sun Apr 8 18:13:43 2018 +0800
+
+    update and added acronyms
+
+commit c42eefcf5d7e53dbdb2ad3c740fb4e59e1f85caf
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Sun Apr 8 00:14:01 2018 +0800
+
+    Update midterms.html
+    
+    Update HTML structure and add information about JavaScript Event Handling.
+
+commit 02f9d28a4091cf6c8f5c026612b40d27e69ebf04
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Sat Apr 7 22:56:45 2018 +0800
+
+    Update midterms.html
+    
+    fixed structure
+
+commit bb24a9b95c42ab754f0b18655b339207181760d6
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Sat Apr 7 22:48:24 2018 +0800
+
+    Update midterms.html
+    
+    fixed structure
+
+commit f089ab4765dc6db64b7a9dfa52d5cfa821cd8c68
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Sat Apr 7 22:39:37 2018 +0800
+
+    Update midterms.html
+    
+    updated html structure and added notes about JavaScript language fundamentals
+
+commit 4096963f11e1ac20f7dfd6babfaf00ef148df365
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Fri Apr 6 20:37:20 2018 +0800
+
+    added additional notes in midterms.html
+
+commit b4072dd6d9b83e5c79a93f8f175f95beaba95b46
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Fri Apr 6 20:32:36 2018 +0800
+
+    edited headers
+
+commit 96c20067eee1892ed1150d93f17a9e4972de0402
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Apr 4 15:57:58 2018 +0800
+
+    Update midterms.html
+
+commit d339c8bcf42d7a9822d145ce77e4c29483b86c97
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Apr 4 15:54:53 2018 +0800
+
+    Added information about Other data types in CSS
+
+commit 763e4ce4378cab858a40b3d55a37e68c184a4975
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 14:56:13 2018 +0800
+
+    Added Some Other Data Types in CSS
+
+commit 2c6477c7bd044d71c0dadda643981d87b78e4502
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 12:56:02 2018 +0800
+
+    Added CSS Numeric Data Type: Dimensions
+
+commit 5bc035b5eeb54de5b5c0e8de748a720c9a3adcaa
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 12:53:14 2018 +0800
+
+    Added some acronyms
+
+commit ccfcfb8b8147848aa737b160e6d49c13cc624164
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 10:55:45 2018 +0800
+
+    Update style1.css
+
+commit b8eb1a01dc1512497b935f74c9e70494eab80084
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 09:38:36 2018 +0800
+
+    Midterms: Comparative Website Evaluation zip file
+
+commit 237b6831374f58a71880ae84b72ad4b8cb6fb79c
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Apr 3 09:37:28 2018 +0800
+
+    Delete Comparative Website Evaluation (9325-G6).rar
+
+commit a62d8295a8b3864fb7c9e221814beceb6ebfde3b
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Apr 3 01:33:11 2018 +0800
+
+    update website
+
+commit 1d508b780404d5178b01e180b2fb07d20597c620
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Mon Apr 2 13:15:40 2018 +0800
+
+    Add files via upload
+
+commit 1af41dba533b1ace531132370700302bf44f0816
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Mar 27 22:33:40 2018 +0800
+
+    added and update info in simple selector and css selector
+
+commit 0dd02c743af6f09a1819be7d2dfd0304c650e35b
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Mar 27 22:27:35 2018 +0800
+
+    update and added information
+
+commit 75b4e7f985f5db03d4d6a6cb45984d7e946d8fa3
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 27 12:28:46 2018 +0800
+
+    Added CSS Declarations, Value Types, Processing
+
+commit 66142b608000e4ff0e2ff30f4f790cf321c03a29
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Mar 26 22:21:45 2018 +0800
+
+    Update midterms.html
+    
+    Edited tab title
+
+commit ff3827c3181b35a02e6b9cf5d7e97696be1d423f
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Mar 26 22:15:24 2018 +0800
+
+    Update midterms.html
+    
+    Added information about CSS Preprocessors, Frameworks and Polyfills.
+
+commit f3dc9de8eafbd833c8706e432501a51c5e8469c0
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Mar 26 21:46:22 2018 +0800
+
+    Update midterms.html
+    
+    update html structure and added information about css rule precedence
+
+commit 94f85fd7838623895167f9a7b59d0213c22fe2e8
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Mar 23 14:56:53 2018 +0800
+
+    Added SASS.html
+
+commit 893676a84d0c1686aaecec0cc05cbaa607b8f7aa
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Mar 23 14:56:15 2018 +0800
+
+    Update midterms.html
+
+commit 827af96becea37a0390eff2ae0ea5b935f4ac9ce
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Mar 22 13:43:32 2018 +0800
+
+    Update midterms.html
+
+commit 6ffaeb8a41db50439fb357ce5504223f0c567d33
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Mar 20 19:18:29 2018 +0800
+
+    update acrynyms html
+
+commit 4da458b48548088fb9667d2824eab5e1354b5024
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Mar 20 16:21:13 2018 +0800
+
+    update midterms html and added information about css selector
+
+commit add690ba0de5580c947d7d985e1128c109f62914
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 14:34:07 2018 +0800
+
+    Update midterms.html
+
+commit be74875bb274f3cca9f4f2a016f31ac523d2fbd3
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 14:22:59 2018 +0800
+
+    Added Selector 3 webpage
+
+commit 30e01e2e57152910e89ce64ad6773772f7793c88
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 14:20:35 2018 +0800
+
+    Delete Selectors Level 3.html
+
+commit de4fc6002b1c03c8584868c27c3f175b7214c103
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 13:58:28 2018 +0800
+
+    Added pictures of Håkon Wium Lie and Bert Bos
+
+commit 6faba84e2f2a6cf2144fba177eedcb33c09e0a5f
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 11:56:12 2018 +0800
+
+    Update midterms.html and the indention
+
+commit 8e30a23073a85ba1eef69dc90ff178e28475c02b
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 11:51:05 2018 +0800
+
+    Added CSS Level 1, 2, and 3
+
+commit 87d46576ec274226cc15f1331b10a39920d6949e
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Tue Mar 20 10:01:33 2018 +0800
+
+    Update midterms.html
+
+commit f4a15e948dfcde82cc9ed79fc3279bdb4fa272a8
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Mar 19 16:38:52 2018 +0800
+
+    Update midterms.html
+    
+    Updated the Html and added information about the CSS rule precedence.
+
+commit b331733a9d6950aea3e4165bfcce544c5769c037
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Mar 19 16:27:18 2018 +0800
+
+    Update midterms.html
+    
+    Update Html structure and added information about simple selectors.
+
+commit 397ac8204ef517e69fb521db3c680f2034344025
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Mar 16 23:37:24 2018 +0800
+
+    added information about css selectors in midterms.html
+
+commit 52a4005bdd1ae688c785e6c043961042c9954ada
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Mar 7 15:57:30 2018 +0800
+
+    Added some acronyms and change the header title
+
+commit fbed9968e33971da1be733a840524b970ec78930
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Mar 7 15:47:23 2018 +0800
+
+    Change the header title and Indention
+
+commit 8bf45c05b8092fc4cc27842704fbe77bb712b793
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Mar 7 15:45:57 2018 +0800
+
+    Change the header title and indention
+
+commit a2c665fed3c2b5a5f854fc2030c66a98c5417e27
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Mar 7 15:44:02 2018 +0800
+
+    fix the error of the location of the references
+    
+    Change the spelling of some misspelled words and the proper indention line
+
+commit 4a99ed620f63cc2d27d494bae33bf98bb25b152c
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Fri Mar 2 19:22:10 2018 +0800
+
+    edited pagination
+
+commit 7b5b04c1d6ccc1e903e2dbbf2a8c172d243aa905
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Mon Feb 26 14:13:03 2018 +0800
+
+    prelims course website zip file
+
+commit dae502bd1dbdb26850552482b213e81e35dfef3e
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Mon Feb 26 10:59:21 2018 +0800
+
+    changed the name home.html to index.html
+
+commit f56c83c16f3428cd54bee20f0999c0b279ae4193
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Mon Feb 26 01:25:27 2018 +0800
+
+    Added some Acronyms and fix the indention
+
+commit 5f2e68e33a769ce46ecfe053321811d5e4adb480
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Mon Feb 26 01:24:14 2018 +0800
+
+    Updated the Indention of home.html
+
+commit b3655656861f293c12e51b3c8d0d6aafa2376c93
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Mon Feb 26 01:22:58 2018 +0800
+
+    Added meaning of MathMl and the fix the spacing
+
+commit e99902a7757ad7e6ad584ab79a574ff0f90b810f
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Feb 25 22:54:26 2018 +0800
+
+    edited some formats in html document
+
+commit ef54d0ffb9b333b62d065b6a5e713fea5a8e0754
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Feb 25 22:49:49 2018 +0800
+
+    edited prelims.html
+
+commit 5eaa263f6b3afcfcfff2f7a4be0536fa0031e15c
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Feb 25 22:33:42 2018 +0800
+
+    added notes for http extensions
+
+commit 3caef450de5dcdbd9e90a7dc99c8ed445658c44b
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Sun Feb 25 21:02:32 2018 +0800
+
+    edited
+
+commit 8f87099d2070d70c632c2aa4b331d470991710b3
+Author: John Yves Ragsac <jyragsac@gmail.com>
+Date:   Sun Feb 25 11:32:29 2018 +0800
+
+    Added notes in html
+
+commit fac47db2b2f099e80bcf1265b0d2858b7e0ccb2e
+Author: John Yves Ragsac <jyragsac@gmail.com>
+Date:   Sat Feb 24 23:24:12 2018 +0800
+
+    edited prelims.html
+
+commit 127c6ec4c224a87cce37251851141d5545023562
+Author: John Yves Ragsac <jyragsac@gmail.com>
+Date:   Sat Feb 24 23:05:52 2018 +0800
+
+    Added notes in http fundamentals
+
+commit 25e0018f6510d976fdc8ae6caff16f3983860564
+Author: John Yves Ragsac <jyragsac@gmail.com>
+Date:   Sat Feb 24 21:06:01 2018 +0800
+
+    added additional notes in http fundamentals
+
+commit 719674c50f94808e12db74b2fd82d7cd26f8d4b7
+Author: John Yves Ragsac <jyragsac@gmail.com>
+Date:   Sat Feb 24 20:54:58 2018 +0800
+
+    inserted additional notes about www
+
+commit 55745dab3857df226e095c1264a7a9b3f9cda38a
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Feb 23 21:35:36 2018 +0800
+
+    update struture in the prelims
+
+commit 48d2a034de58822137badf186ad215a8aed0837d
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Feb 23 21:23:33 2018 +0800
+
+    added some information in the prelims.html
+
+commit 97ffc63098257651d3f5713b94af66ed32787c0d
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 10:55:37 2018 +0800
+
+    Change the spelling and added some links
+
+commit b0a086c3c0326511d0f51e30803d6252067707b5
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 10:54:28 2018 +0800
+
+    Added 4.0 and 4.01 Specifications
+
+commit 88b09f2620dc613046777831b521eb6fde6e8f51
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 10:45:05 2018 +0800
+
+    added HTML 3.2 Reference Specification
+
+commit 4220531520832752edb95ae436fdd6c8bc10df2f
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 10:35:31 2018 +0800
+
+    Added RFC 1866.html
+
+commit 70aa8a30159908e734ad7084d88e3eae2ca93c20
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 10:25:45 2018 +0800
+
+    Added RFC 7235.html
+
+commit f6b3c3e64ebcb582b1b5c97f13bcd7613e27c5bd
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Fri Feb 23 09:55:37 2018 +0800
+
+    Added HTTP 0.9 Reference
+
+commit 47f08ce649cb5e88f82ad46795217c7b5aa47e11
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 16:10:57 2018 +0800
+
+    added RFC 7233.html
+
+commit d70cf6fe441d6421c0e1be2571f8c23af437d7d2
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 16:06:39 2018 +0800
+
+    added some HTTP Status Code
+
+commit 5fd9971060beeb9ed90a60f602c7f31751389721
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 15:27:32 2018 +0800
+
+    added RFC 2518.html
+
+commit adb4911a54c67e8e1bef9dc1ccffd39fb54a23b1
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 13:37:30 2018 +0800
+
+    Update prelims.html
+
+commit 9f7e2dd1b29fbd14419721e15eadd4bab3901e63
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 13:36:43 2018 +0800
+
+    Update midterms.html
+
+commit 5c52a7c2abb336734b0c18028e6ef1df52536c82
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 13:33:21 2018 +0800
+
+    Update home.html
+
+commit 4588bae75dd73d0db99265d9377169065cd63f60
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 13:31:42 2018 +0800
+
+    Update finals.html
+
+commit e5deff0b5cb7c08c867a60cda9e34bd76bcf6902
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 22 13:30:56 2018 +0800
+
+    Update acronyms.html
+
+commit 1014c666619578a75c2e45c9fc12bb250e4a6d83
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Wed Feb 21 12:56:33 2018 +0800
+
+    Update prelims.html
+    
+    fixed structure of html document components.
+
+commit 11d5a85b61e41913d4ff705be6c2f76f069d5bb9
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Wed Feb 21 12:53:56 2018 +0800
+
+    Update prelims.html
+    
+    Fixed structure of HTML Document Components.
+
+commit 48ac549cc5c635d5a4aab67da06370f78d1f41c0
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Wed Feb 21 12:45:17 2018 +0800
+
+    Update prelims.html
+    
+    Added tab for HTML Document Components, fixed its structure and added content to it.
+
+commit 65f1b2301593824da80dda95a3c1dfd766952e7f
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Wed Feb 21 12:29:32 2018 +0800
+
+    Update prelims.html
+    
+    Added content for HTML Document Structure.
+
+commit 8342e4e27b3647f7a44f4dd61d21ba50028d3d83
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Wed Feb 21 12:19:57 2018 +0800
+
+    Update prelims.html
+    
+    Added information about HTML5 and XHTML, also added another tab for HTML Document Structure.
+
+commit 3e3dfbea681488004e8e1da6a209ddc58c7838b8
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Feb 20 22:44:42 2018 +0800
+
+    update prelims html
+
+commit 4a37cf4fdecd2cdc6e8c37aed1e77cceca032714
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 22:17:52 2018 +0800
+
+    renamed and moved the folder for references
+
+commit 4e3b39093e903815a7d0b91d7679284af1769363
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 21:09:24 2018 +0800
+
+    added RFC files
+
+commit 7cc4aac39ce4342895251bc3b72ebc20bef96192
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 20:57:03 2018 +0800
+
+    transferred the HTML5 tab to HTML tab
+
+commit 4cfdc5629deff851fa54a83a76977dbe28ccae2a
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 20:39:35 2018 +0800
+
+    edited the error in prelims.html
+
+commit e57b64528eab584ee5ea152c9b9a451660088cdd
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 20:34:21 2018 +0800
+
+    edited prelims.html
+
+commit 5daaf7e0df5cee3bcff6690e3973130348b009ef
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Tue Feb 20 20:33:16 2018 +0800
+
+    edited prelims.html
+    
+    edited and added notes to the message header fields
+
+commit 94624b14cd30a5d68a866c0bad65b284b14a503d
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Tue Feb 20 17:01:14 2018 +0800
+
+    Update prelims.html
+    
+    Added information about HTTP Status Code.
+
+commit c1737a293d9bb223e57bbbe6953422bba7b8adce
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Tue Feb 20 16:45:23 2018 +0800
+
+    Update prelims.html
+    
+    Updated the structure of HTTP Status Code
+
+commit cfd51c0da3ca278727bf6c7f59184eec88f12d42
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Feb 20 00:18:42 2018 +0800
+
+    update structure of acronyms
+
+commit 61bcbbdcb2efeaeffd7669e174d1540c1f7308d8
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Mon Feb 19 22:33:56 2018 +0800
+
+    update html structure
+
+commit 1c80972112bc89c8c3c6e8415f5099471d0aa738
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Mon Feb 19 22:30:19 2018 +0800
+
+    insert notes for acronyms.html
+
+commit 987bd8210d7f28b579243df0b65c4e126c4445b2
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 19 13:58:12 2018 +0800
+
+    Added information to html and its version history.
+
+commit 58627f4c1d8e089600cf0e7c635bd1b6e6a254aa
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 19 13:42:51 2018 +0800
+
+    Update prelims.html
+    
+    fixed content in http message headers
+
+commit fb0a205343d3cd7a3a1884b232d4bf8df0d6b615
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 19 13:34:09 2018 +0800
+
+    Update prelims.html
+    
+    Added information about HTTP Message Headers
+
+commit 8256844acb1369823eefc3609a21a707350f033e
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Feb 16 01:07:04 2018 +0800
+
+    added some information
+
+commit 0b5dbd5e056cd42dc8a86b9b8c56253edc2756da
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Feb 16 00:36:11 2018 +0800
+
+    update html structure
+
+commit 17d8c1a7626dc2e10f160b1aeef6153424b3c10e
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Thu Feb 15 16:08:18 2018 +0800
+
+    Updated prelims.html (Feb 15)
+
+commit e0917c585ed41b2b2bd01d1c81408ea5f4c93332
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Wed Feb 14 18:52:46 2018 +0800
+
+    added some contents about HTML
+
+commit af5cc59c6b7ce0b79ba68d92c2f3d027fe0e0ead
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 12 15:23:37 2018 +0800
+
+    Update prelims.html
+    
+    Added link for http status code.
+
+commit be8a6a9ddb728fc5745b57aa9b790fe8b2bc35f9
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 12 15:19:14 2018 +0800
+
+    Update prelims.html
+    
+    add another link for HTTP message header.
+
+commit 6a83e29d5c0184cc8f3b2c05d7e0543aab09a77a
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 12 15:11:21 2018 +0800
+
+    Update prelims.html
+    
+    Added notes about http.
+
+commit 95f1b365d96c1977de32cd503b8abec65c8c927e
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 12 14:37:57 2018 +0800
+
+    Update prelims.html
+    
+    Added Notes about the Internet.
+
+commit 18e3db079a28a797204f1f78d3849c3f2c9a8e00
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Mon Feb 12 14:23:42 2018 +0800
+
+    Update prelims.html
+    
+    Added notes for WWW.
+
+commit d8d39fe68297f3db67724e2fc5f95cca6626b90f
+Author: DianneCayabyab <diannecayabyab@gmail.com>
+Date:   Fri Feb 9 11:17:14 2018 +0800
+
+    Update prelims.html
+    
+    Added notes for January 19,2018.
+
+commit 287f53b33a2b4dc48025fc5c1e30f127486718e0
+Author: 2156059@ <2156059@slu.edu.ph>
+Date:   Thu Feb 8 17:48:07 2018 +0800
+
+    added definition at http request methods
+
+commit 88850df2949092409a3cd93d9189c26e21440ba5
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Wed Feb 7 00:05:48 2018 +0800
+
+    fix html structure and added some information
+
+commit f32d003d997c0a1aa622c5cb85020a64ab671935
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Sun Feb 4 02:02:41 2018 +0800
+
+    update the design of the website
+
+commit 69aed3c0ee02e53f846e9ddc459b27b9d5acefe1
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Thu Feb 1 18:42:12 2018 +0800
+
+    inserted notes about HTTP Fundamentals
+
+commit d5f74c67c8c42faa52b4217b4c036f83041c3a9c
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Wed Jan 31 20:45:53 2018 +0800
+
+    inserted references.txt to the repository
+
+commit 43c1512a1b238e32f0435dcce261a462948185b6
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Wed Jan 31 20:44:58 2018 +0800
+
+    Added more information about HTTP versions.
+
+commit 2d8b18a48057b2e35bc41ade2182cd4bfca212fc
+Author: Sarah Mae Centino <2152834@slu.edu.ph>
+Date:   Wed Jan 31 20:26:25 2018 +0800
+
+    inserted topics about http versions
+
+commit de6c4f9d054fff29efaafd0d08286b313b2d70a4
+Author: GrahamFlora <34079552+GrahamFlora@users.noreply.github.com>
+Date:   Sun Jan 28 22:19:00 2018 +0800
+
+    Update prelims.html
+    
+    Added Notes for Prelims (January 27 discussion)
+
+commit 9dab453be18aa6633b85d8a2cc0e35373f702157
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Sat Jan 27 00:34:24 2018 +0800
+
+    delete folder js
+
+commit 1955b1d07d35f64f039d1f6743e1480832375a9e
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Fri Jan 26 23:58:01 2018 +0800
+
+    update ui of prelims.html
+
+commit 39bf11c8bb2000dcfbcf648c4729e640a8213c96
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Thu Jan 25 14:52:06 2018 +0800
+
+    remove modal temporary in home.html
+
+commit 0be249a35ba21046325578c55fdfa3f128fb21bb
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Thu Jan 25 14:14:46 2018 +0800
+
+    upload structure with few information
+
+commit 35040222457007fb741a81efcb8081bb515e1fad
+Author: Lovelace Zennia Luisa Oliva <2144074@slu.edu.ph>
+Date:   Tue Jan 23 18:15:30 2018 +0800
+
+    Create README.md
